@@ -43,7 +43,9 @@ export default function Home() {
               </p>
             </section>
           </section>
-          section.
+          <section className="feature-one"></section>
+          <section className="feature-two"></section>
+          <section className="book-a-call"></section>
         </section>
       </main>
     </>
