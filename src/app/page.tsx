@@ -14,6 +14,10 @@ export default function Home() {
               via email marketing.
             </h3>
           </section>
+          {/*
+            INSTALL CLOUDINARY-REACT
+            IMPLEMENT VIDEO FROM CLOUDINARY-REACT
+          */}
           <section className="hero-right">
             <Image src={image} alt=""></Image>
           </section>
