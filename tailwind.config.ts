@@ -11,6 +11,10 @@ const config: Config = {
       colors: {
         primary: "", //primary color
         secondary: "", //secondary color
+        //neutral
+        //base
+        //success
+        //error
       },
     },
   },
