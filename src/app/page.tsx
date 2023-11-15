@@ -75,7 +75,15 @@ export default function Home() {
               </p>
             </section>
           </section>
-          <section className="book-a-call"></section>
+          <section className="book-a-call">
+            <h2>Start your e-mail expansion</h2>
+            <p>
+              You wonder when to start your e-mail marketing expansion? THe
+              right time is <b>NOW!</b>Book your call today and establish your
+              marketing presence.
+            </p>
+            <button>Book your call</button>
+          </section>
         </section>
       </main>
     </>
