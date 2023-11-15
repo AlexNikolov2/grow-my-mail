@@ -47,8 +47,34 @@ export default function Home() {
               </p>
             </section>
           </section>
-          <section className="feature-one"></section>
-          <section className="feature-two"></section>
+          <section className="feature-one">
+            <section className="text">
+              <h2>Increasing your e-mail reach</h2>
+              <p>
+                Grow My Mail improves the email marketing of every client!
+                Those, who decide to trust us, experience huge grow in their
+                e-mail market reach. Our team uses the best approaches to
+                improve the market stats of those, who use GrowMyMail.
+              </p>
+            </section>
+            <section className="img">
+              <Image src={image} alt=""></Image>
+            </section>
+          </section>
+          <section className="feature-two">
+            <section className="img">
+              <Image src={image} alt=""></Image>
+            </section>
+            <section className="text">
+              <h2>Increasing your e-mail reach</h2>
+              <p>
+                Grow My Mail improves the email marketing of every client!
+                Those, who decide to trust us, experience huge grow in their
+                e-mail market reach. Our team uses the best approaches to
+                improve the market stats of those, who use GrowMyMail.
+              </p>
+            </section>
+          </section>
           <section className="book-a-call"></section>
         </section>
       </main>
