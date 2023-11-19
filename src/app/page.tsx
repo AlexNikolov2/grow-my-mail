@@ -7,11 +7,9 @@ export default function Home() {
       <main className="prose">
         <section className="hero">
           <section className="hero-left">
-            <h1>Expand your email market</h1>
+            <h1>Boosting email conversions by an average of $3,150,900 for DTC brands</h1>
             <h3>
-              GrowMyMail is a consulting agency that helps you expand your
-              presence in the Internet. We help our customers expand their reach
-              via email marketing.
+              Most brands lose an average of $1,260,360 - $6,301,800 in email revenue over a period of two years. We are here to help you claim that revenue back + boost email conversions and customer retention rates even further.
             </h3>
           </section>
           {/*
@@ -23,28 +21,16 @@ export default function Home() {
           </section>
         </section>
         <section className="features">
-          <h2>What are we best at</h2>
+          <h2>Small part of the results we’ve gotten for our clients</h2>
           <section className="features-items">
             <section className="feature-item">
-              <h3>Feature 1</h3>
-              <p>
-                This is a short text that summarises and highlights the best of
-                our feature.
-              </p>
+              <h3>Less stress</h3>
             </section>
             <section className="feature-item">
-              <h3>Feature 2</h3>
-              <p>
-                This is a short text that summarises and highlights the best of
-                our feature.
-              </p>
+              <h3>Less work</h3>
             </section>
             <section className="feature-item">
-              <h3>Feature 3</h3>
-              <p>
-                This is a short text that summarises and highlights the best of
-                our feature.
-              </p>
+              <h3>More results</h3>
             </section>
           </section>
           <section className="feature-one">
