@@ -35,7 +35,7 @@ export default function Home() {
           </section>
           <section className="feature-one">
             <section className="text">
-              <h2>Increasing your e-mail reach</h2>
+              <h2>Navigate calmer skies while getting sales on autopilot & increasing customer LTV.</h2>
               <p>
                 Grow My Mail improves the email marketing of every client!
                 Those, who decide to trust us, experience huge grow in their
@@ -52,7 +52,7 @@ export default function Home() {
               <Image src={image} alt=""></Image>
             </section>
             <section className="text">
-              <h2>Increasing your e-mail reach</h2>
+              <h2>Success, broken down to simple mathematics.</h2>
               <p>
                 Grow My Mail improves the email marketing of every client!
                 Those, who decide to trust us, experience huge grow in their
