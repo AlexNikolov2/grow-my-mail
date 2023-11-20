@@ -51,10 +51,11 @@ export default function Home() {
                 increasing customer LTV.
               </h2>
               <p>
-                Grow My Mail improves the email marketing of every client!
-                Those, who decide to trust us, experience huge grow in their
-                e-mail market reach. Our team uses the best approaches to
-                improve the market stats of those, who use GrowMyMail.
+                Why email? Warning: (almost) free money! Capitalise on existing
+                customers without spending additionally on ads to acquire new
+                ones It is 5x cheaper to sell to an existing customer than to
+                aquire a new one. Email ROI is up to 39x (yes, you read that
+                right)
               </p>
             </section>
             <section className="img">
@@ -68,12 +69,17 @@ export default function Home() {
             <section className="text">
               <h2>Success, broken down to simple mathematics.</h2>
               <p>
-                Grow My Mail improves the email marketing of every client!
-                Those, who decide to trust us, experience huge grow in their
-                e-mail market reach. Our team uses the best approaches to
-                improve the market stats of those, who use GrowMyMail.
+                The average partner grows email sales by an average of 106,4% in
+                the first 6 months of working with us. You pay for results. Not
+                for set-up. Not for a swanky office. Not for bloated payroll. We
+                don’t rely on luck. We engineer success based on data. We
+                analyze best-performing email campaigns and opportunities and
+                capitalize on those.
               </p>
             </section>
+          </section>
+          <section className="guess">
+            {/*We don’t guess. We make careful calculations on how to get you from X to Y in email sales.*/}
           </section>
           <section className="book-a-call">
             <h2>Start your e-mail expansion</h2>
