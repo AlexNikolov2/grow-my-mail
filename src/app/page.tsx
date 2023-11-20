@@ -5,14 +5,15 @@ export default function Home() {
   return (
     <>
       <main className="prose">
-        <section className="hero">
+        <section className="hero bg-primary text-neutral flex justify-around gap-20 w-full">
           <section className="hero-left">
-            <h1>Expand your email market</h1>
-            <h3>
+            <h1 className="text-neutral">Expand your email market</h1>
+            <h3 className="text-neutral">
               GrowMyMail is a consulting agency that helps you expand your
               presence in the Internet. We help our customers expand their reach
               via email marketing.
             </h3>
+            <section className="btn">Apply here</section>
           </section>
           {/*
             INSTALL CLOUDINARY-REACT
@@ -46,6 +47,10 @@ export default function Home() {
                 our feature.
               </p>
             </section>
+          </section>
+          <section className="brands">
+            <h2>Brands that work with us:</h2>
+            <section className="brands-img">{/*images here */}</section>
           </section>
           <section className="feature-one">
             <section className="text">

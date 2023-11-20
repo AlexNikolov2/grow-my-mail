@@ -9,12 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "", //primary color
-        secondary: "", //secondary color
-        //neutral
-        //base
-        //success
-        //error
+        primary: "#063853", //primary color
+        secondary: "#21C3FF", //secondary color
+        neutral: "#ffffff", //neutral color
+        base: "#000000", //dark basis
       },
     },
   },
