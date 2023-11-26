@@ -1,11 +1,12 @@
 import Image from "next/image";
-import image from "../../public/next.svg";
+import hero from "../../public/img/hero.png";
+import image from '../../public/next.svg'
 
 export default function Home() {
   return (
     <>
       <main className="prose">
-        <section className="hero bg-primary text-neutral flex justify-around gap-20 w-full">
+        <section className="hero linear bg-gradient-to-r from-primary to-black text-neutral flex justify-around gap-20 w-full">
           <section className="hero-left">
             <h1 className="text-neutral">
               Boosting email conversions by an average of $3,150,900 for DTC
@@ -24,7 +25,7 @@ export default function Home() {
             IMPLEMENT VIDEO FROM CLOUDINARY-REACT
           */}
           <section className="hero-right">
-            <Image src={image} alt=""></Image>
+            <Image src={hero} alt=""></Image>
           </section>
         </section>
         <section className="features">
@@ -79,7 +80,8 @@ export default function Home() {
             </section>
           </section>
           <section className="guess">
-            {/*We don’t guess. We make careful calculations on how to get you from X to Y in email sales.*/}
+            <h2>We don’t guess.</h2>
+            <p>We make careful calculations on how to get you from X to Y in email sales.</p>
           </section>
           <section className="book-a-call">
             <h2>Start your e-mail expansion</h2>
@@ -88,7 +90,14 @@ export default function Home() {
               right time is <b>NOW!</b>Book your call today and establish your
               marketing presence.
             </p>
-            <button>Book your call</button>
+          </section>
+          <section className="crit">
+            <h2>Are you a good fit? If you:</h2>
+            <section className="criterias">
+              <p className="text-2xl"></p>
+              <p className="text-2xl"></p>
+              <p className="text-2xl"></p>
+            </section>
           </section>
         </section>
       </main>
