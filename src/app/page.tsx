@@ -1,6 +1,6 @@
 import Image from "next/image";
 import hero from "../../public/img/hero.png";
-import image from '../../public/next.svg'
+import image from "../../public/next.svg";
 
 export default function Home() {
   return (
@@ -30,7 +30,7 @@ export default function Home() {
         </section>
         <section className="features text-center">
           <h2>Small part of the results we’ve gotten for our clients</h2>
-          <section className="features-items">
+          <section className="features-items flex justify-center gap-12">
             <section className="feature-item">
               <h3>Less stress</h3>
             </section>
@@ -54,10 +54,9 @@ export default function Home() {
             </h2>
             <p>
               Why email? Warning: (almost) free money! Capitalise on existing
-              customers without spending additionally on ads to acquire new
-              ones It is 5x cheaper to sell to an existing customer than to
-              aquire a new one. Email ROI is up to 39x (yes, you read that
-              right)
+              customers without spending additionally on ads to acquire new ones
+              It is 5x cheaper to sell to an existing customer than to aquire a
+              new one. Email ROI is up to 39x (yes, you read that right)
             </p>
           </section>
           <section className="img">
@@ -74,22 +73,25 @@ export default function Home() {
               The average partner grows email sales by an average of 106,4% in
               the first 6 months of working with us. You pay for results. Not
               for set-up. Not for a swanky office. Not for bloated payroll. We
-              don’t rely on luck. We engineer success based on data. We
-              analyze best-performing email campaigns and opportunities and
-              capitalize on those.
+              don’t rely on luck. We engineer success based on data. We analyze
+              best-performing email campaigns and opportunities and capitalize
+              on those.
             </p>
           </section>
         </section>
         <section className="guess">
           <h2>We don’t guess.</h2>
-          <p>We make careful calculations on how to get you from X to Y in email sales.</p>
+          <p>
+            We make careful calculations on how to get you from X to Y in email
+            sales.
+          </p>
         </section>
         <section className="book-a-call">
           <h2>Start your e-mail expansion</h2>
           <p>
-            You wonder when to start your e-mail marketing expansion? THe
-            right time is <b>NOW!</b>Book your call today and establish your
-            marketing presence.
+            You wonder when to start your e-mail marketing expansion? THe right
+            time is <b>NOW!</b>Book your call today and establish your marketing
+            presence.
           </p>
         </section>
         <section className="crit">
@@ -100,7 +102,6 @@ export default function Home() {
             <p className="text-2xl"></p>
           </section>
         </section>
-
       </main>
     </>
   );
