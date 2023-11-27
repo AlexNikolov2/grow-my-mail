@@ -1,14 +1,18 @@
 import Image from "next/image";
 import hero from "../../public/img/hero.png";
+import img1 from "../../public/img/stress.png";
+import img2 from "../../public/img/less-work.png";
+import img3 from "../../public/img/more-results.png";
+
 import image from "../../public/next.svg";
 
 export default function Home() {
   return (
     <>
       <main className="prose">
-        <section className="hero linear bg-gradient-to-r from-primary to-black text-neutral flex justify-around md:py-10 md:pb-20 md:px-20 gap-20 w-full">
+        <section className="hero linear bg-gradient-to-r from-primary to-black text-neutral flex justify-around py-5 px-5 md:py-10 md:pb-20 md:px-20 gap-20 w-full">
           <section className="hero-left mt-16">
-            <h1 className="text-neutral my-7">
+            <h1 className="text-neutral my-7 text-5xl">
               Boosting email conversions by an average of $3,150,900 for DTC
               brands
             </h1>
@@ -24,20 +28,25 @@ export default function Home() {
             INSTALL CLOUDINARY-REACT
             IMPLEMENT VIDEO FROM CLOUDINARY-REACT
           */}
-          <section className="hero-right">
+          <section className="hero-right hidden md:flex md:items-center">
             <Image src={hero} alt=""></Image>
           </section>
         </section>
-        <section className="features text-center">
-          <h2>Small part of the results we’ve gotten for our clients</h2>
-          <section className="features-items flex justify-center gap-12">
+        <section className="features text-center text-2xl">
+          <h2>
+            Small part of the results <br /> we’ve gotten for our clients
+          </h2>
+          <section className="features-items flex justify-center gap-24">
             <section className="feature-item">
+              <Image src={img1} alt="" className="w-64 h-64"></Image>
               <h3>Less stress</h3>
             </section>
             <section className="feature-item">
+              <Image src={img2} alt="" className="w-64"></Image>
               <h3>Less work</h3>
             </section>
             <section className="feature-item">
+              <Image src={img3} alt="" className="w-64"></Image>
               <h3>More results</h3>
             </section>
           </section>
