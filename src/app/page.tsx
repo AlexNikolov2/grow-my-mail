@@ -32,27 +32,28 @@ export default function Home() {
             <Image src={hero} alt=""></Image>
           </section>
         </section>
-        <section className="features text-center text-2xl">
-          <h2>
+        <section className="features text-center ">
+          <h2 className="text-3xl">
             Small part of the results <br /> we’ve gotten for our clients
           </h2>
           <section className="features-items flex justify-center gap-24">
             <section className="feature-item">
               <Image src={img1} alt="" className="w-64 h-64"></Image>
-              <h3>Less stress</h3>
+              <h3 className="font-bold text-2xl">Less stress</h3>
             </section>
             <section className="feature-item">
               <Image src={img2} alt="" className="w-64"></Image>
-              <h3>Less work</h3>
+              <h3 className="font-bold text-2xl">Less work</h3>
             </section>
             <section className="feature-item">
               <Image src={img3} alt="" className="w-64"></Image>
-              <h3>More results</h3>
+              <h3 className="font-bold text-2xl">More results</h3>
             </section>
           </section>
         </section>
+        <hr className="w-auto h-[2px] my-4 mx-20 bg-gradient-to-r from-white via-primary to-white border-0 rounded md:my-10"></hr>
         <section className="brands text-center scroller">
-          <h2>Brands that work with us:</h2>
+          <h2 className="text-3xl">Brands that work with us:</h2>
           <section className="brands-img">{/*images here */}</section>
         </section>
         <section className="feature-one">
