@@ -36,7 +36,7 @@ export default function Home() {
           <h2 className="text-3xl">
             Small part of the results <br /> we’ve gotten for our clients
           </h2>
-          <section className="features-items flex justify-center gap-24">
+          <section className="features-items flex flex-col md:flex-row justify-center items-center gap-24">
             <section className="feature-item">
               <Image src={img1} alt="" className="w-64 h-64"></Image>
               <h3 className="font-bold text-2xl">Less stress</h3>
@@ -51,11 +51,12 @@ export default function Home() {
             </section>
           </section>
         </section>
-        <hr className="w-auto h-[2px] my-4 mx-20 bg-gradient-to-r from-white via-primary to-white border-0 rounded md:my-10"></hr>
+        <hr className="w-auto h-[2px] my-4 mx-20 bg-gradient-to-r from-white via-primary to-white border-0 rounded md:my-16"></hr>
         <section className="brands text-center scroller">
           <h2 className="text-3xl">Brands that work with us:</h2>
           <section className="brands-img">{/*images here */}</section>
         </section>
+        <hr className="w-auto h-[2px] my-4 mx-20 bg-gradient-to-r from-white via-primary to-white border-0 rounded md:my-16"></hr>
         <section className="feature-one">
           <section className="text">
             <h2>
