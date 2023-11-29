@@ -4,6 +4,7 @@ import img1 from "../../public/img/stress.png";
 import img2 from "../../public/img/less-work.png";
 import img3 from "../../public/img/more-results.png";
 import feature_img1 from "../../public/img/Email-Campaigns-smaller.webp";
+import xy from "../../public/img/x-to-y.png";
 
 import image from "../../public/next.svg";
 
@@ -52,52 +53,37 @@ export default function Home() {
             </section>
           </section>
         </section>
-        <hr className="w-auto h-[2px] my-4 mx-20 bg-gradient-to-r from-white via-primary to-white border-0 rounded md:my-16"></hr>
+        <hr className="w-auto h-[2px] my-4 mx-20 bg-gradient-to-r from-white via-primary to-white border-0 rounded md:my-10"></hr>
         <section className="brands text-center scroller">
           <h2 className="text-3xl">Brands that work with us:</h2>
           <section className="brands-img">{/*images here */}</section>
         </section>
-        <hr className="w-auto h-[2px] my-4 mx-20 bg-gradient-to-r from-white via-primary to-white border-0 rounded md:my-16"></hr>
-        <section className="feature-one flex ml-24">
-          <section className="text">
-            <h2 className="text-3xl">
-              Navigate calmer skies while getting sales on autopilot &
-              increasing customer LTV.
+        <hr className="w-auto h-[2px] my-4 mx-20 bg-gradient-to-r from-white via-primary to-white border-0 rounded md:my-10"></hr>
+        <section className="feature-one flex flex-col md:flex-row md:ml-24 justify-end items-center">
+          <section className="text md:w-1/2 mx-5 text-center md:text-left md:relative md:left-40">
+            <h2 className="text-4xl">
+              Helped brands generate over 10M in email attributed revenue.
             </h2>
             <p>
-              Why email? Warning: (almost) free money! Capitalise on existing
-              customers without spending additionally on ads to acquire new ones
-              It is 5x cheaper to sell to an existing customer than to aquire a
-              new one. Email ROI is up to 39x (yes, you read that right)
+              Why email? It means getting <b>free money</b>! Capitalise on
+              existing customers without spending additionally on ads to acquire
+              new ones It is <b>5x cheaper</b> to sell to an existing customer
+              than to aquire a new one. Email ROI is up to <b>39x</b>! Yes, you
+              read that right!
             </p>
           </section>
           <section className="img">
             <Image src={feature_img1} alt="" className="w-max"></Image>
           </section>
         </section>
-        <section className="feature-two">
-          <section className="img">
-            <Image src={image} alt=""></Image>
-          </section>
-          <section className="text">
-            <h2>Success, broken down to simple mathematics.</h2>
-            <p>
-              The average partner grows email sales by an average of 106,4% in
-              the first 6 months of working with us. You pay for results. Not
-              for set-up. Not for a swanky office. Not for bloated payroll. We
-              don’t rely on luck. We engineer success based on data. We analyze
-              best-performing email campaigns and opportunities and capitalize
-              on those.
-            </p>
-          </section>
-        </section>
-        <section className="guess">
-          <h2>We don’t guess.</h2>
-          <p>
+        <section className="guess bg-primary pt-6 pb-10 mx-auto text-center flex flex-col">
+          <h2 className="text-4xl font-black text-neutral">We don’t guess.</h2>
+          <p className="text-neutral font-bold">
             We make careful calculations on how to get you from X to Y in email
             sales.
           </p>
         </section>
+        section.
         <section className="book-a-call">
           <h2>Start your e-mail expansion</h2>
           <p>
