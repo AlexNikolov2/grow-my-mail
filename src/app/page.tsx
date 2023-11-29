@@ -3,6 +3,7 @@ import hero from "../../public/img/hero.png";
 import img1 from "../../public/img/stress.png";
 import img2 from "../../public/img/less-work.png";
 import img3 from "../../public/img/more-results.png";
+import feature_img1 from "../../public/img/Email-Campaigns-smaller.webp";
 
 import image from "../../public/next.svg";
 
@@ -57,9 +58,9 @@ export default function Home() {
           <section className="brands-img">{/*images here */}</section>
         </section>
         <hr className="w-auto h-[2px] my-4 mx-20 bg-gradient-to-r from-white via-primary to-white border-0 rounded md:my-16"></hr>
-        <section className="feature-one">
+        <section className="feature-one flex ml-24">
           <section className="text">
-            <h2>
+            <h2 className="text-3xl">
               Navigate calmer skies while getting sales on autopilot &
               increasing customer LTV.
             </h2>
@@ -71,7 +72,7 @@ export default function Home() {
             </p>
           </section>
           <section className="img">
-            <Image src={image} alt=""></Image>
+            <Image src={feature_img1} alt="" className="w-max"></Image>
           </section>
         </section>
         <section className="feature-two">
