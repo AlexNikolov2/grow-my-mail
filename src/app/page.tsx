@@ -83,7 +83,9 @@ export default function Home() {
             sales.
           </p>
         </section>
-        section.
+        <section className="why-us">
+          <h2>Why us?</h2>
+        </section>
         <section className="book-a-call">
           <h2>Start your e-mail expansion</h2>
           <p>
