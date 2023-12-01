@@ -17,3 +17,21 @@
 .btn-secondary {
   background-color: #21c3ff;
 }
+::-webkit-scrollbar {
+  height: 6px;
+  margin: 0px 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a7a7a7;
+  border-radius: 25px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a7a7a7;
+}

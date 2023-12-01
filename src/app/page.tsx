@@ -5,6 +5,7 @@ import img2 from "../../public/img/less-work.png";
 import img3 from "../../public/img/more-results.png";
 import feature_img1 from "../../public/img/Email-Campaigns-smaller.webp";
 import xy from "../../public/img/x-to-y.png";
+import Slider from "./components/Slider";
 
 import image from "../../public/next.svg";
 
@@ -56,7 +57,7 @@ export default function Home() {
         <hr className="w-auto h-[2px] my-4 mx-20 bg-gradient-to-r from-white via-primary to-white border-0 rounded md:my-10"></hr>
         <section className="brands text-center scroller">
           <h2 className="text-3xl">Brands that work with us:</h2>
-          <section className="brands-img">{/*images here */}</section>
+          <Slider></Slider>
         </section>
         <hr className="w-auto h-[2px] my-4 mx-20 bg-gradient-to-r from-white via-primary to-white border-0 rounded md:my-10"></hr>
         <section className="feature-one flex flex-col md:flex-row md:ml-24 justify-end items-center">
