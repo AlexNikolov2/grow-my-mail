@@ -86,6 +86,16 @@ export default function Home() {
         </section>
         <section className="why-us">
           <h2>Why us?</h2>
+          <section className="drowdowns-1">
+            <section className="left">
+              <section className="left-item">
+                {/*itemz */}
+              </section>
+            </section>
+            <section className="right">
+              {/*itemz */}
+            </section>
+          </section>
         </section>
         <section className="book-a-call">
           <h2>Start your e-mail expansion</h2>
