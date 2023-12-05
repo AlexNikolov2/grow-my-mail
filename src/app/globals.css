@@ -35,3 +35,11 @@
 ::-webkit-scrollbar-thumb:hover {
   background-color: #a7a7a7;
 }
+
+.item-dropdown,
+.items-display {
+  border-radius: 25px;
+  border: 5px solid;
+  margin: 20px 0px;
+  padding: 8px 14px;
+}
