@@ -6,8 +6,9 @@ import img3 from "../../public/img/more-results.png";
 import feature_img1 from "../../public/img/Email-Campaigns-smaller.webp";
 import xy from "../../public/img/x-to-y.png";
 import Slider from "./components/Slider";
-
+import { DropdownsHelp } from "./components/Dropdowns";
 import image from "../../public/next.svg";
+import { DropdownsWhy } from "./components/Dropdowns";
 
 export default function Home() {
   return (
@@ -84,19 +85,8 @@ export default function Home() {
             sales.
           </p>
         </section>
-        <section className="why-us">
-          <h2>Why us?</h2>
-          <section className="drowdowns-1">
-            <section className="left">
-              <section className="left-item">
-                {/*itemz */}
-              </section>
-            </section>
-            <section className="right">
-              {/*itemz */}
-            </section>
-          </section>
-        </section>
+        <DropdownsWhy></DropdownsWhy>
+        <DropdownsHelp></DropdownsHelp>
         <section className="book-a-call">
           <h2>Start your e-mail expansion</h2>
           <p>
