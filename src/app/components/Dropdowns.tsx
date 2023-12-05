@@ -1,21 +1,24 @@
 import Image from "next/image";
-import { useState } from "react";
 
 export function DropdownsWhy() {
-  let [isOpened, setIsOpened] = useState();
-
   return (
     <section className="dropdown-wrap">
       <h2>Why us?</h2>
-      <section className="dropdown-items-wrap">
+      <section className="dropdown-items-wrap flex gap-10 justify-center ">
         <section className="items-all">
-          <section className="item-dropdown">Predictability</section>
-          <section className="item-dropdown">Pay for results</section>
-          <section className="item-dropdown">Safety and security</section>
-          <section className="item-dropdown">Steady growth</section>
-          <section className="item-dropdown">Success, driven by math</section>
-          <section className="item-dropdown">Magic! (not quite)</section>
-          <section className="item-dropdown">Focused</section>
+          <section className="item-dropdown text-3xl">Predictability</section>
+          <section className="item-dropdown text-3xl">Pay for results</section>
+          <section className="item-dropdown text-3xl">
+            Safety and security
+          </section>
+          <section className="item-dropdown text-3xl">Steady growth</section>
+          <section className="item-dropdown text-3xl">
+            Success, driven by math
+          </section>
+          <section className="item-dropdown text-3xl">
+            Magic! (not quite)
+          </section>
+          <section className="item-dropdown text-3xl">Focused</section>
         </section>
         <section className="item-display">
           <section className="item-display-wrap">
@@ -26,7 +29,7 @@ export function DropdownsWhy() {
                 the first 6 months of working with us.
               </p>
             </section>
-            <section className="item-display">
+            <section className="item-display hidden">
               <p className="text-3xl">Pay for results</p>
               <p className="text-xl">
                 Not for set-up.
@@ -36,7 +39,7 @@ export function DropdownsWhy() {
               </p>
             </section>
 
-            <section className="item-display">
+            <section className="item-display hidden">
               <p className="text-3xl">Safety and security</p>
               <p className="text-xl">
                 Relax as we alleviate the stress of managing an in-house team
@@ -48,7 +51,7 @@ export function DropdownsWhy() {
                 peace of mind.
               </p>
             </section>
-            <section className="item-display">
+            <section className="item-display hidden">
               <p className="text-3xl">Steady growth</p>
               <p className="text-xl">
                 We’ll evolve at a pace you can keep up with; we won’t make a
@@ -56,7 +59,7 @@ export function DropdownsWhy() {
                 logistic chain.
               </p>
             </section>
-            <section className="item-display">
+            <section className="item-display hidden">
               <p className="text-3xl">Success, driven by math</p>
               <p className="text-xl">
                 <p>We don’t rely on luck.</p>
@@ -67,14 +70,14 @@ export function DropdownsWhy() {
                 </p>
               </p>
             </section>
-            <section className="item-display">
+            <section className="item-display hidden">
               <p className="text-3xl">Magic! (not quite)</p>
               <p className="text-xl">
                 The average partner is proven to grow email sales by 106,4% in
                 the first 6 months of working with us.
               </p>
             </section>
-            <section className="item-display">
+            <section className="item-display hidden">
               <p className="text-3xl">Focused</p>
               <p className="text-xl">
                 The average partner is proven to grow email sales by 106,4% in
