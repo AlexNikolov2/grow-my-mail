@@ -9,6 +9,12 @@ import Slider from "./components/Slider";
 import { DropdownsHelp } from "./components/Dropdowns";
 import image from "../../public/next.svg";
 import { DropdownsWhy } from "./components/Dropdowns";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faInstagram,
+  faTiktok,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
 
 export default function Home() {
   return (
@@ -105,25 +111,43 @@ export default function Home() {
           </section>
           <Image src={image} alt=""></Image>
         </section>
-        <section className="about-the-founder">
-          <h2 className="text-3xl">About the founder</h2>
-          <p className="text-2xl font-bold">Ilko Hristov</p>
-          <ul>
-            <li>Helped brands earn more than 10M through email marketing</li>
-            <li>Over 6 years of experience in digital marketing</li>
-            <li>Over 75k followers on social media</li>
-          </ul>
-          <ul>
-            <li>
-              <a href="">tuba</a>
-            </li>
-            <li>
-              <a href="">tiktok</a>
-            </li>
-            <li>
-              <a href="">insta</a>
-            </li>
-          </ul>
+        <section className="about-the-founder flex md:flex-row flex-col gap-10 md:px-20 py-10 items-center justify-between bg-gradient-to-r from-primary to-slate-800 text-neutral">
+          <section className="left">
+            <h2 className="text-3xl text-neutral">About the founder</h2>
+            <p className="text-2xl font-bold">Ilko Hristov</p>
+            <ul>
+              <li>Helped brands earn more than 10M through email marketing</li>
+              <li>Over 6 years of experience in digital marketing</li>
+              <li>Over 75k followers on social media</li>
+            </ul>
+            <ul className="list-none flex gap-3">
+              <li>
+                <a href="/">
+                  <FontAwesomeIcon
+                    icon={faYoutube}
+                    className="w-5 h-5 text-neutral"
+                  ></FontAwesomeIcon>
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  <FontAwesomeIcon
+                    icon={faTiktok}
+                    className="w-5 h-5 text-neutral"
+                  ></FontAwesomeIcon>
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  <FontAwesomeIcon
+                    icon={faInstagram}
+                    className="w-5 h-5 text-neutral"
+                  ></FontAwesomeIcon>
+                </a>
+              </li>
+            </ul>
+          </section>
+          <Image src={image} alt=""></Image>
         </section>
         <section className="book-a-call">
           <h2>Start your e-mail expansion</h2>
