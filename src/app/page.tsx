@@ -15,6 +15,8 @@ import {
   faTiktok,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+import numbersImg from "../../public/img/numbers.png";
+import founderImg from "../../public/img/founder.jpg";
 
 export default function Home() {
   return (
@@ -93,9 +95,10 @@ export default function Home() {
         </section>
         <DropdownsWhy></DropdownsWhy>
         <DropdownsHelp></DropdownsHelp>
-        <section className="averages-wrap">
+        <hr className="w-auto h-[2px] my-4 mx-20 bg-gradient-to-r from-white via-primary to-white border-0 rounded md:my-10"></hr>
+        <section className="averages-wrap md:px-20">
           <h2 className="text-3xl">Our 6 month averages</h2>
-          <section className="wrapper flex md:flex-row flex-col gap-10 md:px-20 py-10 items-center justify-between">
+          <section className="wrapper flex md:flex-row flex-col gap-10 py-10 items-center justify-between">
             <section className="numbers flex gap-12 flex-wrap justify-center items-center basis-1/2">
               <p className="stat text-center">
                 <p className="text-4xl font-bold text-primary">39.13%</p>
@@ -106,14 +109,16 @@ export default function Home() {
                 <p className="text-xl">Increase in customer LTV</p>
               </p>
               <p className="stat text-center">
-                <p className="text-6xl font-bold text-primary">106.4%</p>
-                <p className="text-2xl">Increase in email attributed revenue</p>
+                <p className="text-6xl font-bold text-primary my-3">106.4%</p>
+                <p className="text-2xl my-2">
+                  Increase in email attributed revenue
+                </p>
               </p>
             </section>
-            <Image src={image} alt=""></Image>
+            <Image src={numbersImg} alt=""></Image>
           </section>
         </section>
-        <section className="about-the-founder flex md:flex-row flex-col gap-10 md:px-20 py-10 items-center justify-between bg-gradient-to-r from-primary to-slate-800 text-neutral">
+        <section className="about-the-founder flex md:flex-row flex-col gap-32 md:px-20 py-10 items-center justify-center bg-gradient-to-r from-primary to-slate-800 text-neutral">
           <section className="left">
             <h2 className="text-3xl text-neutral">About the founder</h2>
             <p className="text-2xl font-bold">Ilko Hristov</p>
@@ -122,12 +127,12 @@ export default function Home() {
               <li>Over 6 years of experience in digital marketing</li>
               <li>Over 75k followers on social media</li>
             </ul>
-            <ul className="list-none flex gap-3">
+            <ul className="list-none flex gap-3 justify-center">
               <li>
                 <a href="/">
                   <FontAwesomeIcon
                     icon={faYoutube}
-                    className="w-5 h-5 text-neutral"
+                    className="w-9 h-9 text-neutral"
                   ></FontAwesomeIcon>
                 </a>
               </li>
@@ -135,7 +140,7 @@ export default function Home() {
                 <a href="/">
                   <FontAwesomeIcon
                     icon={faTiktok}
-                    className="w-5 h-5 text-neutral"
+                    className="w-9 h-9 text-neutral"
                   ></FontAwesomeIcon>
                 </a>
               </li>
@@ -143,13 +148,17 @@ export default function Home() {
                 <a href="/">
                   <FontAwesomeIcon
                     icon={faInstagram}
-                    className="w-5 h-5 text-neutral"
+                    className="w-9 h-9 text-neutral"
                   ></FontAwesomeIcon>
                 </a>
               </li>
             </ul>
           </section>
-          <Image src={image} alt=""></Image>
+          <Image
+            src={founderImg}
+            alt=""
+            className="w-48 rounded-full border-neutral border-solid border-4"
+          ></Image>
         </section>
         <section className="book-a-call">
           <h2>Start your e-mail expansion</h2>
