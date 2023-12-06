@@ -95,21 +95,23 @@ export default function Home() {
         <DropdownsHelp></DropdownsHelp>
         <section className="averages-wrap">
           <h2 className="text-3xl">Our 6 month averages</h2>
-          <section className="numbers">
-            <p className="stat">
-              <p className="text-2xl font-bold">106.4%</p>
-              <p className="text-xl">Increase in email attributed revenue</p>
-            </p>
-            <p className="stat">
-              <p className="text-2xl font-bold">39.13%</p>
-              <p className="text-xl">Increase in AOV</p>
-            </p>
-            <p className="stat">
-              <p className="text-2xl font-bold">17.27%</p>
-              <p className="text-xl">Increase in customer LTV</p>
-            </p>
+          <section className="wrapper flex md:flex-row flex-col gap-10 md:px-20 py-10 items-center justify-between">
+            <section className="numbers flex gap-12 flex-wrap justify-center items-center basis-1/2">
+              <p className="stat text-center">
+                <p className="text-4xl font-bold text-primary">39.13%</p>
+                <p className="text-xl">Increase in AOV</p>
+              </p>
+              <p className="stat text-center">
+                <p className="text-4xl font-bold text-primary">17.27%</p>
+                <p className="text-xl">Increase in customer LTV</p>
+              </p>
+              <p className="stat text-center">
+                <p className="text-6xl font-bold text-primary">106.4%</p>
+                <p className="text-2xl">Increase in email attributed revenue</p>
+              </p>
+            </section>
+            <Image src={image} alt=""></Image>
           </section>
-          <Image src={image} alt=""></Image>
         </section>
         <section className="about-the-founder flex md:flex-row flex-col gap-10 md:px-20 py-10 items-center justify-between bg-gradient-to-r from-primary to-slate-800 text-neutral">
           <section className="left">
