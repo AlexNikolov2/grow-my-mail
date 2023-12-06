@@ -87,6 +87,24 @@ export default function Home() {
         </section>
         <DropdownsWhy></DropdownsWhy>
         <DropdownsHelp></DropdownsHelp>
+        <section className="averages-wrap">
+          <h2 className="text-3xl">Our 6 month averages</h2>
+          <section className="numbers">
+            <p className="stat">
+              <p className="text-2xl font-bold">106.4%</p>
+              <p className="text-xl">Increase in email attributed revenue</p>
+            </p>
+            <p className="stat">
+              <p className="text-2xl font-bold">39.13%</p>
+              <p className="text-xl">Increase in AOV</p>
+            </p>
+            <p className="stat">
+              <p className="text-2xl font-bold">17.27%</p>
+              <p className="text-xl">Increase in customer LTV</p>
+            </p>
+          </section>
+          <Image src={image} alt=""></Image>
+        </section>
         <section className="book-a-call">
           <h2>Start your e-mail expansion</h2>
           <p>
