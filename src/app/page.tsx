@@ -105,6 +105,26 @@ export default function Home() {
           </section>
           <Image src={image} alt=""></Image>
         </section>
+        <section className="about-the-founder">
+          <h2 className="text-3xl">About the founder</h2>
+          <p className="text-2xl font-bold">Ilko Hristov</p>
+          <ul>
+            <li>Helped brands earn more than 10M through email marketing</li>
+            <li>Over 6 years of experience in digital marketing</li>
+            <li>Over 75k followers on social media</li>
+          </ul>
+          <ul>
+            <li>
+              <a href="">tuba</a>
+            </li>
+            <li>
+              <a href="">tiktok</a>
+            </li>
+            <li>
+              <a href="">insta</a>
+            </li>
+          </ul>
+        </section>
         <section className="book-a-call">
           <h2>Start your e-mail expansion</h2>
           <p>
