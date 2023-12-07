@@ -56,7 +56,7 @@ export function DropdownsWhy() {
           {items.map((item, index) => (
             <section
               key={index}
-              className={`item-dropdown text-2xl border-primary ${
+              className={`item-dropdown text-2xl bg-primary text-neutral ${
                 openedIndex === index ? "active" : ""
               }`}
               onClick={() => toggleElement(index)}
@@ -65,12 +65,12 @@ export function DropdownsWhy() {
             </section>
           ))}
         </section>
-        <section className="items-display lg:w-[900px]">
-          <section className="item-display-wrap">
+        <section className="items-display lg:w-[900px] bg-gradient-to-br from-primary to-black">
+          <section className="item-display-wrap ">
             {items.map((item, index) => (
               <section
                 key={index}
-                className={`item-display box-border my-2 mx-4 ${
+                className={`item-display box-border my-2 mx-4 text-neutral ${
                   openedIndex === index ? "block" : "hidden"
                 }`}
               >
@@ -138,7 +138,7 @@ export function DropdownsHelp() {
           {items.map((item, index) => (
             <section
               key={index}
-              className={`item-dropdown text-2xl border-primary ${
+              className={`item-dropdown text-2xl bg-primary text-neutral ${
                 openedIndex === index ? "active" : ""
               }`}
               onClick={() => toggleElement(index)}
@@ -147,12 +147,12 @@ export function DropdownsHelp() {
             </section>
           ))}
         </section>
-        <section className="items-display lg:w-[900px]">
+        <section className="items-display lg:w-[900px] bg-gradient-to-br from-primary to-black">
           <section className="item-display-wrap">
             {items.map((item, index) => (
               <section
                 key={index}
-                className={`item-display box-border my-2 mx-4 ${
+                className={`item-display box-border my-2 mx-4 text-neutral ${
                   openedIndex === index ? "block" : "hidden"
                 }`}
               >

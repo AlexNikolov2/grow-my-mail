@@ -94,6 +94,7 @@ export default function Home() {
           </p>
         </section>
         <DropdownsWhy></DropdownsWhy>
+        <hr className="w-auto h-[2px] my-4 mx-20 bg-gradient-to-r from-white via-primary to-white border-0 rounded md:my-10"></hr>
         <DropdownsHelp></DropdownsHelp>
         <hr className="w-auto h-[2px] my-4 mx-20 bg-gradient-to-r from-white via-primary to-white border-0 rounded md:my-10"></hr>
         <section className="averages-wrap md:px-20">
