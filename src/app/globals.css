@@ -43,3 +43,7 @@
   margin: 20px 0px;
   padding: 8px 14px;
 }
+.item {
+  padding: 16px;
+  border-radius: 25px;
+}

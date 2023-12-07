@@ -160,40 +160,46 @@ export default function Home() {
             className="w-48 rounded-full border-neutral border-solid border-4"
           ></Image>
         </section>
-        <section className="how-we-results">
+        <section className="how-we-results md:mx-20">
           <h2 className="text-4xl">How do we get results</h2>
-          <section className="items">
-            <section className="item">
+          <section className="items flex text-neutral gap-10 md:flex-row flex-col items-center">
+            <section className="item bg-primary">
               <Image src={image} alt="" className=""></Image>
-              <p className="text-2xl">Audit</p>
+              <p className="text-2xl font-bold">Audit</p>
               <ul className="">
-                <li className="text-xl">
+                <li className="">
                   Identify opportunities for additional email revenue
                 </li>
-                <li className="text-xl">Identify problems costing you money</li>
-                <li className="text-xl">Suggest actionables for improvement</li>
+                <li className="">Identify problems costing you money</li>
+                <li className="">Suggest actionables for improvement</li>
               </ul>
             </section>
-            <section className="item">
+            <section className="arrow text-black text-6xl font-black">
+              &gt;
+            </section>
+            <section className="item bg-primary">
               <Image src={image} alt="" className=""></Image>
-              <p className="text-2xl">Audit</p>
+              <p className="text-2xl font-bold">Audit</p>
               <ul className="">
-                <li className="text-xl">
+                <li className="">
                   Identify opportunities for additional email revenue
                 </li>
-                <li className="text-xl">Identify problems costing you money</li>
-                <li className="text-xl">Suggest actionables for improvement</li>
+                <li className="">Identify problems costing you money</li>
+                <li className="">Suggest actionables for improvement</li>
               </ul>
             </section>
-            <section className="item">
+            <section className="arrow text-black text-6xl font-black">
+              &gt;
+            </section>
+            <section className="item bg-primary">
               <Image src={image} alt="" className=""></Image>
-              <p className="text-2xl">Audit</p>
+              <p className="text-2xl font-bold">Audit</p>
               <ul className="">
-                <li className="text-xl">
+                <li className="">
                   Identify opportunities for additional email revenue
                 </li>
-                <li className="text-xl">Identify problems costing you money</li>
-                <li className="text-xl">Suggest actionables for improvement</li>
+                <li className="">Identify problems costing you money</li>
+                <li className="">Suggest actionables for improvement</li>
               </ul>
             </section>
           </section>
