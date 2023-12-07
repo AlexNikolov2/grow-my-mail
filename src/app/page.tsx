@@ -205,6 +205,27 @@ export default function Home() {
             </section>
           </section>
         </section>
+        <section className="approach">
+          <h2 className="text-4xl">What&amp;s our approach?</h2>
+          <section className="items">
+            <section className="item">
+              <p className="font-bold 4xl">Done for you</p>
+              <ul>
+                <li>Completely hands-off for you</li>
+                <li>We build the strategy and implement</li>
+                <li>You enjoy the results</li>
+              </ul>
+            </section>
+            <section className="item">
+              <p className="font-bold 4xl">Done for you</p>
+              <ul>
+                <li>Completely hands-off for you</li>
+                <li>We build the strategy and implement</li>
+                <li>You enjoy the results</li>
+              </ul>
+            </section>
+          </section>
+        </section>
       </main>
     </>
   );
