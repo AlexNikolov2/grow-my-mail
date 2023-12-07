@@ -160,20 +160,42 @@ export default function Home() {
             className="w-48 rounded-full border-neutral border-solid border-4"
           ></Image>
         </section>
-        <section className="book-a-call">
-          <h2>Start your e-mail expansion</h2>
-          <p>
-            You wonder when to start your e-mail marketing expansion? THe right
-            time is <b>NOW!</b>Book your call today and establish your marketing
-            presence.
-          </p>
-        </section>
-        <section className="crit">
-          <h2>Are you a good fit? If you:</h2>
-          <section className="criterias">
-            <p className="text-2xl"></p>
-            <p className="text-2xl"></p>
-            <p className="text-2xl"></p>
+        <section className="how-we-results">
+          <h2 className="text-4xl">How do we get results</h2>
+          <section className="items">
+            <section className="item">
+              <Image src={image} alt="" className=""></Image>
+              <p className="text-2xl">Audit</p>
+              <ul className="">
+                <li className="text-xl">
+                  Identify opportunities for additional email revenue
+                </li>
+                <li className="text-xl">Identify problems costing you money</li>
+                <li className="text-xl">Suggest actionables for improvement</li>
+              </ul>
+            </section>
+            <section className="item">
+              <Image src={image} alt="" className=""></Image>
+              <p className="text-2xl">Audit</p>
+              <ul className="">
+                <li className="text-xl">
+                  Identify opportunities for additional email revenue
+                </li>
+                <li className="text-xl">Identify problems costing you money</li>
+                <li className="text-xl">Suggest actionables for improvement</li>
+              </ul>
+            </section>
+            <section className="item">
+              <Image src={image} alt="" className=""></Image>
+              <p className="text-2xl">Audit</p>
+              <ul className="">
+                <li className="text-xl">
+                  Identify opportunities for additional email revenue
+                </li>
+                <li className="text-xl">Identify problems costing you money</li>
+                <li className="text-xl">Suggest actionables for improvement</li>
+              </ul>
+            </section>
           </section>
         </section>
       </main>
