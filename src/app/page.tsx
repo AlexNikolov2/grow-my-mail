@@ -17,6 +17,8 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import numbersImg from "../../public/img/numbers.png";
 import founderImg from "../../public/img/founder.jpg";
+import { CldVideoPlayer } from "next-cloudinary";
+import { VideoTestimonials } from "./components/VideoTestimonials";
 
 export default function Home() {
   return (
@@ -98,7 +100,7 @@ export default function Home() {
           <h2 className="text-3xl text-neutral">Our moto:</h2>
           <p className="text-6xl">DELEGATE AND ELEVATE.</p>
           <p className="text-lg">
-            Claim back the 7200h+ you would spend on email each year.
+            Claim back the 720h+ you would spend on email each year.
           </p>
           <p className="text-lg">
             Fly new hights at an average of 106,4% in the first six months of
@@ -241,6 +243,7 @@ export default function Home() {
             </section>
           </section>
         </section>
+        <VideoTestimonials></VideoTestimonials>
       </main>
     </>
   );
