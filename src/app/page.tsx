@@ -19,6 +19,13 @@ import numbersImg from "../../public/img/numbers.png";
 import founderImg from "../../public/img/founder.jpg";
 import { CldVideoPlayer } from "next-cloudinary";
 import { VideoTestimonials } from "./components/VideoTestimonials";
+import chief_nutrition from "../../public/img/chief_nutrition.webp";
+import {
+  faCalendar,
+  faClock,
+  faTimeline,
+  faTimes,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
   return (
@@ -244,6 +251,40 @@ export default function Home() {
           </section>
         </section>
         <VideoTestimonials></VideoTestimonials>
+        <hr className="w-auto h-[2px] my-4 mx-20 bg-gradient-to-r from-white via-primary to-white border-0 rounded md:my-10"></hr>
+        <section className="case-study md:mx-20 my-10 flex justify-around items-center gap-10">
+          <Image src={chief_nutrition} alt="" className="rounded-3xl"></Image>
+          <section className="right flex flex-col gap-20">
+            <section className="title">
+              <h2 className="text-4xl">CASE STUDY: CHIEF NUTRITION</h2>
+              <h3 className="flex gap-10">
+                <FontAwesomeIcon
+                  icon={faClock}
+                  className="w-6 text-primary"
+                ></FontAwesomeIcon>{" "}
+                6 months
+              </h3>
+            </section>
+            <section className="results flex gap-5 justify-around text-center">
+              <section className="result w-[250px]">
+                <p className="text-4xl my-3 text-primary font-black">6822%</p>
+                <p>Increase in email sales vs. previous year</p>
+              </section>
+              <section className="result w-[250px]">
+                <p className="text-4xl my-3 text-primary font-black">$362K</p>
+                <p>Email attributed revenue</p>
+              </section>
+              <section className="result w-[250px]">
+                <p className="text-4xl my-3 text-primary font-black">100%</p>
+                <p>
+                  Doubled email attributed revenue in the first 2 months of our
+                  partnership.
+                </p>
+              </section>
+            </section>
+          </section>
+        </section>
+        <section className="good-fit"></section>
       </main>
     </>
   );
