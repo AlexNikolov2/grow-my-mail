@@ -49,7 +49,7 @@ export function DropdownsWhy() {
   ];
 
   return (
-    <section className="dropdown-wrap mx-20">
+    <section className="dropdown-wrap mx-20 my-10">
       <h2 className="text-4xl">Why us?</h2>
       <section className="dropdown-items-wrap flex gap-10 justify-between">
         <section className="items-all font-bold flex-grow">

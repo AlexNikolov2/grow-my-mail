@@ -94,7 +94,17 @@ export default function Home() {
           </p>
         </section>
         <DropdownsWhy></DropdownsWhy>
-        <hr className="w-auto h-[2px] my-4 mx-20 bg-gradient-to-r from-white via-primary to-white border-0 rounded md:my-10"></hr>
+        <section className="moto bg-primary text-neutral text-center py-5 md:px-20">
+          <h2 className="text-3xl text-neutral">Our moto:</h2>
+          <p className="text-6xl">DELEGATE AND ELEVATE.</p>
+          <p className="text-lg">
+            Claim back the 7200h+ you would spend on email each year.
+          </p>
+          <p className="text-lg">
+            Fly new hights at an average of 106,4% in the first six months of
+            working with us.
+          </p>
+        </section>
         <DropdownsHelp></DropdownsHelp>
         <hr className="w-auto h-[2px] my-4 mx-20 bg-gradient-to-r from-white via-primary to-white border-0 rounded md:my-10"></hr>
         <section className="averages-wrap md:px-20">
@@ -205,10 +215,12 @@ export default function Home() {
             </section>
           </section>
         </section>
-        <section className="approach">
-          <h2 className="text-4xl">What&amp;s our approach?</h2>
-          <section className="items">
-            <section className="item">
+        <section className="approach bg-gradient-to-r from-primary to-slate-900 text-neutral my-10 py-6 md:px-20">
+          <h2 className="text-4xl text-neutral text-center">
+            What&apos;s our approach?
+          </h2>
+          <section className="items flex justify-center gap-10">
+            <section className="item border-neutral rounded-2xl border-4">
               <p className="font-bold 4xl">Done for you</p>
               <ul>
                 <li>Completely hands-off for you</li>
@@ -216,11 +228,14 @@ export default function Home() {
                 <li>You enjoy the results</li>
               </ul>
             </section>
-            <section className="item">
-              <p className="font-bold 4xl">Done for you</p>
+            <p className="text-7xl font-black">OR</p>
+            <section className="item border-neutral rounded-2xl border-4 max-w-[350px]">
+              <p className="font-bold 4xl">Done with you</p>
               <ul>
-                <li>Completely hands-off for you</li>
-                <li>We build the strategy and implement</li>
+                <li>60% hands-off for you</li>
+                <li>
+                  We build the strategy and help your internal team implement
+                </li>
                 <li>You enjoy the results</li>
               </ul>
             </section>
