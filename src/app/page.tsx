@@ -284,7 +284,14 @@ export default function Home() {
             </section>
           </section>
         </section>
-        <section className="good-fit"></section>
+        <section className="good-fit">
+          <h2 className="text-4xl">Are we a good fit?</h2>
+          <section className="items">
+            <section className="item"></section>
+            <section className="item"></section>
+            <section className="item"></section>
+          </section>
+        </section>
       </main>
     </>
   );
