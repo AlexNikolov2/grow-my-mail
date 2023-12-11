@@ -284,12 +284,43 @@ export default function Home() {
             </section>
           </section>
         </section>
-        <section className="good-fit">
+        <section className="good-fit md:px-20 text-center bg-gradient-to-b from-blue-100 via-blue-300 to-blue-500 flex justify-center items-center py-10 flex-col">
           <h2 className="text-4xl">Are we a good fit?</h2>
-          <section className="items">
-            <section className="item"></section>
-            <section className="item"></section>
-            <section className="item"></section>
+          <p>
+            If you can answer &quot;YES&quot; on 2 out of the 3 questions, then
+            don&apos;t wait! Apply to work with us right now!
+          </p>
+          <section className="items flex justify-center gap-12 ">
+            <section className="item w-[400px] bg-neutral shadow-black shadow-2xl flex flex-col items-center justify-center">
+              <p className="text-xl font-bold">Question #1:</p>
+              <p>Are you an established business that </p>
+              <ol className="text=left">
+                <li className="text=left">
+                  Generates $50k+ in monthly recurring revenue (MRR)?
+                </li>
+                <li className="text=left">Has 10k+ email subscribers?</li>
+                <li className="text=left">
+                  Drives traffic 50k+ unique website visitors/pm?
+                </li>
+              </ol>
+            </section>
+            <section className="item w-[400px] bg-neutral shadow-black shadow-2xl flex flex-col items-center justify-center">
+              <p className="text-xl font-bold">Question #2:</p>
+              <p>
+                Are you logistically prepared to handle an average of 106,4%
+                increase in email revenue in the next 6 months?
+              </p>
+            </section>
+            <section className="item w-[400px] bg-neutral shadow-black shadow-2xl flex flex-col items-center justify-center">
+              <p className="text-xl font-bold">Question #3:</p>
+              <p>
+                Are you excited for long-term email success, backed by a loyal
+                email partner?
+              </p>
+            </section>
+          </section>
+          <section className="btn btn-secondary my-10">
+            Apply to work with us
           </section>
         </section>
       </main>
