@@ -32,7 +32,9 @@ const CalendlyComponent = ({ url }) => {
           marketing.
         </p>
         <section className="list-1">
-          <p>Perfect for businesses ready to:</p>
+          <p>
+            <b>Perfect for businesses ready to:</b>
+          </p>
           <ul className="list-none">
             <li className="flex gap-1 items-center">
               <FontAwesomeIcon icon={faCheck} className="text-green-700" />
@@ -49,7 +51,9 @@ const CalendlyComponent = ({ url }) => {
           </ul>
         </section>
         <section className="list-2">
-          <p>Perfect for businesses ready to:</p>
+          <p>
+            <b>Perfect for businesses ready to:</b>
+          </p>
           <ul className="list-none">
             <li className="flex gap-1 items-center">
               <FontAwesomeIcon icon={faCheck} className="text-green-700" />

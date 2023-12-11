@@ -187,9 +187,9 @@ export default function Home() {
             className="w-48 rounded-full border-neutral border-solid border-4"
           ></Image>
         </section>
-        <section className="how-we-results md:mx-20">
+        <section className="how-we-results md:mx-20 text-center md:text-left">
           <h2 className="text-4xl">How do we get results</h2>
-          <section className="items flex text-neutral gap-10 md:flex-row flex-col items-center">
+          <section className="items flex text-neutral gap-10 md:flex-row flex-col items-center mx-5 md:mx-0">
             <section className="item bg-primary">
               <Image src={image} alt="" className=""></Image>
               <p className="text-2xl font-bold">Audit</p>
@@ -235,7 +235,7 @@ export default function Home() {
           <h2 className="text-4xl text-neutral text-center">
             What&apos;s our approach?
           </h2>
-          <section className="items flex justify-center gap-10 lg:flex-row flex-col">
+          <section className="items flex justify-center gap-10 lg:flex-row flex-col items-center md:items-stretch">
             <section className="item border-neutral rounded-2xl border-4">
               <p className="font-bold 4xl">Done for you</p>
               <ul>
