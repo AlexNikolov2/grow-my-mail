@@ -46,3 +46,8 @@
   padding: 16px;
   border-radius: 25px;
 }
+@media screen and (max-width: 768px) {
+  iframe {
+    max-width: 300px;
+  }
+}
