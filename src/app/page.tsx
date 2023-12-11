@@ -323,6 +323,7 @@ export default function Home() {
             Apply to work with us
           </section>
         </section>
+        <section className="email-marketing bg-secondary"></section>
       </main>
     </>
   );
