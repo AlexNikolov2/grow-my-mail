@@ -28,6 +28,7 @@ import {
   faX,
 } from "@fortawesome/free-solid-svg-icons";
 import EmailMarketing from "../../public/img/email-narketing.png";
+import CalendlyComponent from "./components/Calendly";
 
 export default function Home() {
   return (
@@ -368,6 +369,7 @@ export default function Home() {
             <Image src={EmailMarketing} alt="Email" className="w-3/4"></Image>
           </section>
         </section>
+        <CalendlyComponent url="https://calendly.com/aletoooking00/30min"></CalendlyComponent>
       </main>
     </>
   );
