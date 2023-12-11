@@ -121,13 +121,13 @@ export default function Home() {
         <section className="averages-wrap md:px-20">
           <h2 className="text-3xl">Our 6 month averages</h2>
           <section className="wrapper flex md:flex-row flex-col gap-10 py-10 items-center justify-between">
-            <section className="numbers flex gap-12 flex-wrap justify-center items-center basis-1/2">
-              <p className="stat text-center">
-                <p className="text-4xl font-bold text-primary">39.13%</p>
+            <section className="numbers flex flex-col gap-12 flex-wrap justify-center items-center basis-1/2">
+              <p className="stat text-center m-1">
+                <p className="text-4xl font-bold text-primary my-1">39.13%</p>
                 <p className="text-xl">Increase in AOV</p>
               </p>
-              <p className="stat text-center">
-                <p className="text-4xl font-bold text-primary">17.27%</p>
+              <p className="stat text-center m-1">
+                <p className="text-4xl font-bold text-primary my-1">17.27%</p>
                 <p className="text-xl">Increase in customer LTV</p>
               </p>
               <p className="stat text-center">
@@ -141,9 +141,13 @@ export default function Home() {
           </section>
         </section>
         <section className="about-the-founder flex md:flex-row flex-col gap-32 md:px-20 py-10 items-center justify-center bg-gradient-to-r from-primary to-slate-800 text-neutral">
-          <section className="left">
-            <h2 className="text-3xl text-neutral">About the founder</h2>
-            <p className="text-2xl font-bold">Ilko Hristov</p>
+          <section className="left ">
+            <h2 className="text-3xl text-neutral text-center md:text-left">
+              About the founder
+            </h2>
+            <p className="text-2xl font-bold text-center md:text-left">
+              Ilko Hristov
+            </p>
             <ul>
               <li>Helped brands earn more than 10M through email marketing</li>
               <li>Over 6 years of experience in digital marketing</li>
@@ -230,7 +234,7 @@ export default function Home() {
           <h2 className="text-4xl text-neutral text-center">
             What&apos;s our approach?
           </h2>
-          <section className="items flex justify-center gap-10">
+          <section className="items flex justify-center gap-10 lg:flex-row flex-col">
             <section className="item border-neutral rounded-2xl border-4">
               <p className="font-bold 4xl">Done for you</p>
               <ul>
@@ -256,7 +260,7 @@ export default function Home() {
         <hr className="w-auto h-[2px] my-4 mx-20 bg-gradient-to-r from-white via-primary to-white border-0 rounded md:my-10"></hr>
         <section className="case-study md:mx-20 my-10 flex xl:flex-row flex-col justify-around items-center gap-10">
           <Image src={chief_nutrition} alt="" className="rounded-3xl"></Image>
-          <section className="right flex flex-col gap-20">
+          <section className="right flex flex-col gap-20 text-center md:text-left">
             <section className="title">
               <h2 className="text-4xl">CASE STUDY: CHIEF NUTRITION</h2>
               <h3 className="flex gap-10">
@@ -267,7 +271,7 @@ export default function Home() {
                 6 months
               </h3>
             </section>
-            <section className="results flex flex-col xl:flex-row gap-5 justify-around text-center">
+            <section className="results flex flex-col xl:flex-row gap-5 justify-center md:justify-around">
               <section className="result w-[250px]">
                 <p className="text-4xl my-3 text-primary font-black">6822%</p>
                 <p>Increase in email sales vs. previous year</p>
@@ -293,7 +297,7 @@ export default function Home() {
             don&apos;t wait! Apply to work with us right now!
           </p>
           <section className="items flex justify-center gap-12 xl:flex-row flex-col ">
-            <section className="item max-w-[400px] bg-neutral shadow-black shadow-2xl flex flex-col items-center justify-center">
+            <section className="item md:max-w-[400px] max-w-[300px] bg-neutral shadow-black shadow-2xl flex flex-col items-center justify-center">
               <p className="text-xl font-bold">Question #1:</p>
               <p>Are you an established business that </p>
               <ol className="text=left">
@@ -306,14 +310,14 @@ export default function Home() {
                 </li>
               </ol>
             </section>
-            <section className="item w-[400px] bg-neutral shadow-black shadow-2xl flex flex-col items-center justify-center">
+            <section className="item md:max-w-[400px] max-w-[300px]  bg-neutral shadow-black shadow-2xl flex flex-col items-center justify-center">
               <p className="text-xl font-bold">Question #2:</p>
               <p>
                 Are you logistically prepared to handle an average of 106,4%
                 increase in email revenue in the next 6 months?
               </p>
             </section>
-            <section className="item w-[400px] bg-neutral shadow-black shadow-2xl flex flex-col items-center justify-center">
+            <section className="item md:max-w-[400px] max-w-[300px] bg-neutral shadow-black shadow-2xl flex flex-col items-center justify-center">
               <p className="text-xl font-bold">Question #3:</p>
               <p>
                 Are you excited for long-term email success, backed by a loyal
@@ -326,7 +330,7 @@ export default function Home() {
           </section>
         </section>
         <section className="email-marketing bg-primary text-neutral flex md:flex-row flex-col justify-center items-center md:px-20 py-10">
-          <section className="left min-w-max">
+          <section className="left text-center md:text-left">
             <p className="text-xl">Our service:</p>
             <h2 className="text-5xl text-neutral my-2">EMAIL MARKETING.</h2>
             <section className="wewont">
