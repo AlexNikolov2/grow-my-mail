@@ -25,7 +25,9 @@ import {
   faClock,
   faTimeline,
   faTimes,
+  faX,
 } from "@fortawesome/free-solid-svg-icons";
+import EmailMarketing from "../../public/img/email-narketing.png";
 
 export default function Home() {
   return (
@@ -252,7 +254,7 @@ export default function Home() {
         </section>
         <VideoTestimonials></VideoTestimonials>
         <hr className="w-auto h-[2px] my-4 mx-20 bg-gradient-to-r from-white via-primary to-white border-0 rounded md:my-10"></hr>
-        <section className="case-study md:mx-20 my-10 flex justify-around items-center gap-10">
+        <section className="case-study md:mx-20 my-10 flex xl:flex-row flex-col justify-around items-center gap-10">
           <Image src={chief_nutrition} alt="" className="rounded-3xl"></Image>
           <section className="right flex flex-col gap-20">
             <section className="title">
@@ -265,7 +267,7 @@ export default function Home() {
                 6 months
               </h3>
             </section>
-            <section className="results flex gap-5 justify-around text-center">
+            <section className="results flex flex-col xl:flex-row gap-5 justify-around text-center">
               <section className="result w-[250px]">
                 <p className="text-4xl my-3 text-primary font-black">6822%</p>
                 <p>Increase in email sales vs. previous year</p>
@@ -290,8 +292,8 @@ export default function Home() {
             If you can answer &quot;YES&quot; on 2 out of the 3 questions, then
             don&apos;t wait! Apply to work with us right now!
           </p>
-          <section className="items flex justify-center gap-12 ">
-            <section className="item w-[400px] bg-neutral shadow-black shadow-2xl flex flex-col items-center justify-center">
+          <section className="items flex justify-center gap-12 xl:flex-row flex-col ">
+            <section className="item max-w-[400px] bg-neutral shadow-black shadow-2xl flex flex-col items-center justify-center">
               <p className="text-xl font-bold">Question #1:</p>
               <p>Are you an established business that </p>
               <ol className="text=left">
@@ -323,7 +325,45 @@ export default function Home() {
             Apply to work with us
           </section>
         </section>
-        <section className="email-marketing bg-secondary"></section>
+        <section className="email-marketing bg-primary text-neutral flex md:flex-row flex-col justify-center items-center md:px-20 py-10">
+          <section className="left min-w-max">
+            <p className="text-xl">Our service:</p>
+            <h2 className="text-5xl text-neutral my-2">EMAIL MARKETING.</h2>
+            <section className="wewont">
+              <p>We won&apos;t :</p>
+              <ul className="list-none text-center">
+                <li className="flex gap-5 items-center">
+                  <FontAwesomeIcon
+                    icon={faX}
+                    className="text-red-600 w-10 h-10 border-red-600 p-1 border-1 border-solid"
+                  ></FontAwesomeIcon>
+                  <p>Manage your social media</p>
+                </li>
+                <li className="flex gap-5 items-center">
+                  <FontAwesomeIcon
+                    icon={faX}
+                    className="text-red-600 w-10 h-10 border-red-600 p-1 border-1 border-solid"
+                  ></FontAwesomeIcon>
+                  <p>Run your FB ads</p>
+                </li>
+                <li className="flex gap-5 items-center">
+                  <FontAwesomeIcon
+                    icon={faX}
+                    className="text-red-600 w-10 h-10 border-red-600 p-1 border-1 border-solid"
+                  ></FontAwesomeIcon>
+                  <p>Optimise your website</p>
+                </li>
+              </ul>
+              <p className="text-2xl font-bold text-center">
+                We&apos;ll do email marketing and we&apos;ll do it like no one
+                else.
+              </p>
+            </section>
+          </section>
+          <section className="right flex justify-center items-center">
+            <Image src={EmailMarketing} alt="Email" className="w-3/4"></Image>
+          </section>
+        </section>
       </main>
     </>
   );
