@@ -23,10 +23,12 @@ import CalendlyComponent from "./components/Calendly";
 import audit from "../../public/img/audit.png";
 import plan from "../../public/img/plan.png";
 import execution from "../../public/img/execution.png";
+import Header from "./components/Header";
 
 export default function Home() {
   return (
     <>
+      <Header></Header>
       <main className="prose">
         <section className="hero linear bg-gradient-to-r from-primary to-black text-neutral flex justify-around py-5 px-5 md:py-10 md:pb-20 md:px-20 gap-20 w-full">
           <section className="hero-left mt-16">
