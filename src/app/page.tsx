@@ -189,7 +189,7 @@ export default function Home() {
         </section>
         <section className="how-we-results md:mx-20 text-center md:text-left">
           <h2 className="text-4xl">How do we get results</h2>
-          <section className="items flex text-neutral gap-10 md:flex-row flex-col items-center mx-5 md:mx-0">
+          <section className="items flex text-neutral gap-10 md:flex-row flex-col items-stretch mx-5 md:mx-0">
             <section className="item bg-primary">
               <Image src={image} alt="" className=""></Image>
               <p className="text-2xl font-bold">Audit</p>
@@ -201,32 +201,28 @@ export default function Home() {
                 <li className="">Suggest actionables for improvement</li>
               </ul>
             </section>
-            <section className="arrow text-black text-6xl font-black">
+            <section className="arrow text-black text-6xl font-black my-auto">
               &gt;
             </section>
             <section className="item bg-primary">
               <Image src={image} alt="" className=""></Image>
-              <p className="text-2xl font-bold">Audit</p>
+              <p className="text-2xl font-bold">Plan</p>
               <ul className="">
-                <li className="">
-                  Identify opportunities for additional email revenue
-                </li>
-                <li className="">Identify problems costing you money</li>
-                <li className="">Suggest actionables for improvement</li>
+                <li className="">Lay out the next 90 days</li>
+                <li className="">Campaign calendar</li>
+                <li className="">Flow/ automations calendar</li>
               </ul>
             </section>
-            <section className="arrow text-black text-6xl font-black">
+            <section className="arrow text-black text-6xl font-black my-auto">
               &gt;
             </section>
             <section className="item bg-primary">
               <Image src={image} alt="" className=""></Image>
-              <p className="text-2xl font-bold">Audit</p>
+              <p className="text-2xl font-bold">Execution</p>
               <ul className="">
-                <li className="">
-                  Identify opportunities for additional email revenue
-                </li>
-                <li className="">Identify problems costing you money</li>
-                <li className="">Suggest actionables for improvement</li>
+                <li className="">Technical Build-up</li>
+                <li className="">Copy/Design</li>
+                <li className="">3-Step Quality Check</li>
               </ul>
             </section>
           </section>
