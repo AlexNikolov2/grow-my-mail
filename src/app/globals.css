@@ -51,3 +51,18 @@
     max-width: 300px;
   }
 }
+.btn-secondary:hover {
+  background-color: #96daff;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s;
+}
+.item-dropdown:hover {
+  background-color: #0f75ad;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+a:hover {
+  font-weight: bold;
+  transition: font-weight 0.5s;
+}
