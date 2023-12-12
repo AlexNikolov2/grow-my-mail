@@ -53,12 +53,14 @@ export default function Home() {
             </section>
             <section className="btn btn-secondary mt-8">Apply here</section>
           </section>
-          {/*
-            INSTALL CLOUDINARY-REACT
-            IMPLEMENT VIDEO FROM CLOUDINARY-REACT
-          */}
-          <section className="hero-right hidden md:flex md:items-center">
-            <Image src={hero} alt=""></Image>
+          <section className="hero-right hidden md:flex md:items-center min-w-[33%]">
+            <iframe
+              height="300"
+              src="https://www.loom.com/embed/bb9785347d7f489fb8f89ea5ea18a395?sid=ec486bec-857f-469b-8010-b89a50234868"
+              frameBorder="0"
+              allowFullScreen
+              className="xl:w-[500px] w-full"
+            ></iframe>
           </section>
         </section>
         <section className="features text-center ">
