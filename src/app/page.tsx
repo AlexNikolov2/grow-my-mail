@@ -4,10 +4,8 @@ import img1 from "../../public/img/stress.png";
 import img2 from "../../public/img/less-work.png";
 import img3 from "../../public/img/more-results.png";
 import feature_img1 from "../../public/img/Email-Campaigns-smaller.webp";
-import xy from "../../public/img/x-to-y.png";
 import Slider from "./components/Slider";
 import { DropdownsHelp } from "./components/Dropdowns";
-import image from "../../public/next.svg";
 import { DropdownsWhy } from "./components/Dropdowns";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -17,16 +15,9 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import numbersImg from "../../public/img/numbers.png";
 import founderImg from "../../public/img/founder.jpg";
-import { CldVideoPlayer } from "next-cloudinary";
 import { VideoTestimonials } from "./components/VideoTestimonials";
 import chief_nutrition from "../../public/img/chief_nutrition.webp";
-import {
-  faCalendar,
-  faClock,
-  faTimeline,
-  faTimes,
-  faX,
-} from "@fortawesome/free-solid-svg-icons";
+import { faClock, faX } from "@fortawesome/free-solid-svg-icons";
 import EmailMarketing from "../../public/img/email-narketing.png";
 import CalendlyComponent from "./components/Calendly";
 import audit from "../../public/img/audit.png";
