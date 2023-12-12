@@ -24,6 +24,7 @@ import audit from "../../public/img/audit.png";
 import plan from "../../public/img/plan.png";
 import execution from "../../public/img/execution.png";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -367,6 +368,7 @@ export default function Home() {
         </section>
         <CalendlyComponent url="https://calendly.com/aletoooking00/30min"></CalendlyComponent>
       </main>
+      <Footer></Footer>
     </>
   );
 }
