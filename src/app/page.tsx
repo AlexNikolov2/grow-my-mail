@@ -29,6 +29,9 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import EmailMarketing from "../../public/img/email-narketing.png";
 import CalendlyComponent from "./components/Calendly";
+import audit from "../../public/img/audit.png";
+import plan from "../../public/img/plan.png";
+import execution from "../../public/img/execution.png";
 
 export default function Home() {
   return (
@@ -191,7 +194,7 @@ export default function Home() {
           <h2 className="text-4xl">How do we get results</h2>
           <section className="items flex text-neutral gap-10 md:flex-row flex-col items-stretch mx-5 md:mx-0">
             <section className="item bg-primary">
-              <Image src={image} alt="" className=""></Image>
+              <Image src={audit} alt="" className="w-1/2 mx-auto"></Image>
               <p className="text-2xl font-bold">Audit</p>
               <ul className="">
                 <li className="">
@@ -205,7 +208,7 @@ export default function Home() {
               &gt;
             </section>
             <section className="item bg-primary">
-              <Image src={image} alt="" className=""></Image>
+              <Image src={plan} alt="" className="w-1/2 mx-auto"></Image>
               <p className="text-2xl font-bold">Plan</p>
               <ul className="">
                 <li className="">Lay out the next 90 days</li>
@@ -217,7 +220,7 @@ export default function Home() {
               &gt;
             </section>
             <section className="item bg-primary">
-              <Image src={image} alt="" className=""></Image>
+              <Image src={execution} alt="" className="w-1/2 mx-auto"></Image>
               <p className="text-2xl font-bold">Execution</p>
               <ul className="">
                 <li className="">Technical Build-up</li>
