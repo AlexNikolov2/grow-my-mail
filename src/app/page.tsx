@@ -54,17 +54,17 @@ export default function Home() {
           <h2 className="text-3xl">
             Small part of the results <br /> we’ve gotten for our clients
           </h2>
-          <section className="features-items flex flex-col md:flex-row justify-center items-center gap-24">
+          <section className="features-items flex flex-col lg:flex-row justify-center items-center gap-24">
             <section className="feature-item">
-              <Image src={img1} alt="" className="w-64 h-64"></Image>
+              <Image src={img1} alt="" className="max-w-[256px] h-64"></Image>
               <h3 className="font-bold text-2xl">Less stress</h3>
             </section>
             <section className="feature-item">
-              <Image src={img2} alt="" className="w-64"></Image>
+              <Image src={img2} alt="" className="max-w-[256px]"></Image>
               <h3 className="font-bold text-2xl">Less work</h3>
             </section>
             <section className="feature-item">
-              <Image src={img3} alt="" className="w-64"></Image>
+              <Image src={img3} alt="" className="max-w-[256px]"></Image>
               <h3 className="font-bold text-2xl">More results</h3>
             </section>
           </section>
@@ -132,7 +132,11 @@ export default function Home() {
                 </p>
               </p>
             </section>
-            <Image src={numbersImg} alt=""></Image>
+            <Image
+              src={numbersImg}
+              alt=""
+              className="max-w-[280px] md:max-w-md"
+            ></Image>
           </section>
         </section>
         <section className="about-the-founder flex md:flex-row flex-col gap-32 md:px-20 py-10 items-center justify-center bg-gradient-to-r from-primary to-slate-800 text-neutral">
@@ -181,9 +185,9 @@ export default function Home() {
             className="w-48 rounded-full border-neutral border-solid border-4"
           ></Image>
         </section>
-        <section className="how-we-results md:mx-20 text-center md:text-left">
+        <section className="how-we-results md:mx-20 text-center lg:text-left">
           <h2 className="text-4xl">How do we get results</h2>
-          <section className="items flex text-neutral gap-10 md:flex-row flex-col items-stretch mx-5 md:mx-0">
+          <section className="items flex text-neutral gap-10 lg:flex-row flex-col items-stretch mx-5 md:mx-0">
             <section className="item bg-primary">
               <Image src={audit} alt="" className="w-1/2 mx-auto"></Image>
               <p className="text-2xl font-bold">Audit</p>
