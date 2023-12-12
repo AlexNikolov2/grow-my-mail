@@ -25,6 +25,9 @@ import plan from "../../public/img/plan.png";
 import execution from "../../public/img/execution.png";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import googlePartner from "../../public/img/Google_Vectors-Wrapper.svg";
+import shopifyPartner from "../../public/img/Shopify_Vectors-Wrapper.svg";
+import klaviyoPartner from "../../public/img/klaviyo-partner-badge-light.svg";
 
 export default function Home() {
   return (
@@ -43,6 +46,11 @@ export default function Home() {
               that revenue back + boost email conversions and customer retention
               rates even further.
             </h3>
+            <section className="partners flex flex-wrap gap-5">
+              <Image src={googlePartner} alt=""></Image>
+              <Image src={shopifyPartner} alt=""></Image>
+              <Image src={klaviyoPartner} alt="" className="w-24"></Image>
+            </section>
             <section className="btn btn-secondary mt-8">Apply here</section>
           </section>
           {/*
