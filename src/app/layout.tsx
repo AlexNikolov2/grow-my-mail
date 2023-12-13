@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
-import { Raleway } from "next/font/google"; //change the font to Poppins!
+import { Poppins } from "next/font/google"; //change the font to Poppins!
 import "./globals.css";
 
-const font = Raleway({ subsets: ["latin"] }); // change the font to Poppins!
+const font = Poppins({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+}); // change the font to Poppins!
 
 export const metadata: Metadata = {
   title: "Grow my mail",
