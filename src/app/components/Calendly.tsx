@@ -17,7 +17,7 @@ const CalendlyComponent = ({ url }) => {
 
   return (
     <section className="calendly flex xl:flex-row flex-col md:mx-20 items-center justify-between">
-      <section className="text">
+      <section className="text w-[300px] md:w-auto">
         <h2 className="text-3xl">
           Get Your Free 15-Minute Email Strategy Demo with Hayder
         </h2>
