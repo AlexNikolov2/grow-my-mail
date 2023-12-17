@@ -28,6 +28,7 @@ import Footer from "./components/Footer";
 import googlePartner from "../../public/img/Google_Vectors-Wrapper.svg";
 import shopifyPartner from "../../public/img/Shopify_Vectors-Wrapper.svg";
 import klaviyoPartner from "../../public/img/klaviyo-partner-badge-light.svg";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -37,21 +38,17 @@ export default function Home() {
         <section className="hero linear bg-gradient-to-r from-primary to-black text-neutral flex justify-around py-5 px-5 md:py-10 md:pb-20 md:px-20 gap-20 w-full">
           <section className="hero-left mt-16">
             <h1 className="text-neutral my-7 text-5xl">
-              Boosting email conversions by an average of $3,150,900 for DTC
-              brands
+              We help DTC/eCommerce brands boost retention revenue by an average of $3,150,900
             </h1>
             <h3 className="text-neutral my-5">
-              Most brands lose an average of $1,260,360 - $6,301,800 in email
-              revenue over a period of two years. We are here to help you claim
-              that revenue back + boost email conversions and customer retention
-              rates even further.
+              Most brands lose an average of $1,260,360 - $6,301,800 in retention revenue over a period of two years. We are here to help you claim that revenue back + boost retention and customer lifetime value even further.
             </h3>
             <section className="partners flex flex-wrap gap-5">
               <Image src={googlePartner} alt=""></Image>
               <Image src={shopifyPartner} alt=""></Image>
               <Image src={klaviyoPartner} alt="" className="w-24"></Image>
             </section>
-            <section className="btn btn-secondary mt-8">Apply here</section>
+            <section className="btn btn-secondary mt-8" ><Link href="">Get a free demo</Link></section>
           </section>
           <section className="hero-right hidden md:flex md:items-center min-w-[33%]">
             <iframe
@@ -376,7 +373,7 @@ export default function Home() {
             <Image src={EmailMarketing} alt="Email" className="w-3/4"></Image>
           </section>
         </section>
-        <CalendlyComponent url="https://calendly.com/aletoooking00/30min"></CalendlyComponent>
+        <CalendlyComponent url="https://calendly.com/ayanashfaq1590/consultancy-call"></CalendlyComponent>
       </main>
       <Footer></Footer>
     </>
