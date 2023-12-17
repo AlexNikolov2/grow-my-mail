@@ -11,9 +11,9 @@ import 'slick-carousel/slick/slick-theme.css';
 export default function Carrousel() {
     const CustomPrevArrow = (props) => (
         <div
-            className="slick-arrow slick-prev text-white bg-blue-500 p-2 rounded-full"
+            className="hidden slick-arrow slick-prev p-2 rounded-full"
             onClick={props.onClick}
-            style={{ left: '30px', zIndex: 1 }}
+            style={{ left: '-30px', zIndex: 1 }}
         >
             Previous
         </div>
@@ -21,9 +21,9 @@ export default function Carrousel() {
 
     const CustomNextArrow = (props) => (
         <div
-            className="slick-arrow slick-next"
+            className="hidden slick-arrow slick-next p-2 rounded-full"
             onClick={props.onClick}
-            style={{ right: '30px', zIndex: 1 }}
+            style={{ right: '-30px', zIndex: 1 }}
         >
             Next
         </div>
@@ -46,18 +46,20 @@ export default function Carrousel() {
     ];
 
     return (
-        <div className="w-full mx-auto">
-            <Slider {...sliderSettings}>
-                {images.map((image, index) => (
-                    <div key={index} className="h-64 flex flex-col mx-auto">
-                        <img
-                            src={`/carrousel_img/${image}`}
-                            alt={`slide-${index}`}
-                            className="max-w-full max-h-full"
-                        />
-                    </div>
-                ))}
-            </Slider>
+        <div className="w-auto sm:max-w-[550px] mx-auto">
+            <div className="mx-auto"> {/* Center the Slider */}
+                <Slider {...sliderSettings}>
+                    {images.map((image, index) => (
+                        <div key={index} className="h-64 flex flex-col mx-auto">
+                            <img
+                                src={`/carrousel_img/${image}`}
+                                alt={`slide-${index}`}
+                                className="max-w-full max-h-full object-cover"
+                            />
+                        </div>
+                    ))}
+                </Slider>
+            </div>
         </div>
     );
 }
