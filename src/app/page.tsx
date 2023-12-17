@@ -29,6 +29,8 @@ import googlePartner from "../../public/img/Google_Vectors-Wrapper.svg";
 import shopifyPartner from "../../public/img/Shopify_Vectors-Wrapper.svg";
 import klaviyoPartner from "../../public/img/klaviyo-partner-badge-light.svg";
 import Link from "next/link";
+import Carrousel from "./components/Carrousel";
+
 
 export default function Home() {
   return (
@@ -37,7 +39,7 @@ export default function Home() {
       <main className="prose">
         <section className="hero linear bg-gradient-to-r from-primary to-black text-neutral flex justify-around py-5 px-5 md:py-10 md:pb-20 md:px-20 gap-20 w-full">
           <section className="hero-left mt-16">
-            <h1 className="text-neutral my-7 text-5xl">
+            <h1 className="text-neutral my-7 text-3xl sm:text-5xl">
               We help DTC/eCommerce brands boost retention revenue by an average of $3,150,900
             </h1>
             <h3 className="text-neutral my-5">
@@ -60,25 +62,7 @@ export default function Home() {
             ></iframe>
           </section>
         </section>
-        <section className="features text-center ">
-          <h2 className="text-3xl">
-            Small part of the results <br /> we’ve gotten for our clients
-          </h2>
-          <section className="features-items flex flex-col lg:flex-row justify-center items-center gap-24">
-            <section className="feature-item">
-              <Image src={img1} alt="" className="max-w-[256px] h-64"></Image>
-              <h3 className="font-bold text-2xl">Less stress</h3>
-            </section>
-            <section className="feature-item">
-              <Image src={img2} alt="" className="max-w-[256px]"></Image>
-              <h3 className="font-bold text-2xl">Less work</h3>
-            </section>
-            <section className="feature-item">
-              <Image src={img3} alt="" className="max-w-[256px]"></Image>
-              <h3 className="font-bold text-2xl">More results</h3>
-            </section>
-          </section>
-        </section>
+        <Carrousel></Carrousel>
         <hr className="w-auto h-[2px] my-4 mx-20 bg-gradient-to-r from-white via-primary to-white border-0 rounded md:my-10"></hr>
         <section className="brands text-center scroller">
           <h2 className="text-3xl">Brands that work with us:</h2>

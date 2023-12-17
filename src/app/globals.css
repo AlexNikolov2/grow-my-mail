@@ -66,3 +66,14 @@ a:hover {
   font-weight: bold;
   transition: font-weight 0.5s;
 }
+.slick-prev,
+.slick-next {
+  background: #063853 !important;
+}
+@media screen and (max-width: 768px) {
+  .slick-next,
+  .slick-,
+  .slick-arrow {
+    display: none !important;
+  }
+}
