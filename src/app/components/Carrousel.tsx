@@ -47,6 +47,7 @@ export default function Carrousel() {
 
   return (
     <div className="w-auto sm:max-w-[55%] mx-auto">
+      <h2 className="text-4xl text-center pb-5">Ready? Set... Results!</h2>
       <div className="mx-auto">
         {/* Center the Slider */}
         <div className="mx-auto">
