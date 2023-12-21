@@ -108,7 +108,7 @@ export default function Home() {
         <section className="moto bg-primary text-neutral text-center py-5 md:px-20 flex justify-between items-center">
           <Image src={clock} alt="" className="w-56 h-56"></Image>
           <section className="center">
-            <h2 className="text-3xl text-neutral">Our moto:</h2>
+            <h2 className="text-3xl text-neutral">Our motto:</h2>
             <p className="text-6xl">DELEGATE AND ELEVATE.</p>
             <p className="text-lg">
               Claim back the 720h+ you would spend on email each year.
