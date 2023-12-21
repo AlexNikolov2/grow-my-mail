@@ -30,6 +30,8 @@ import shopifyPartner from "../../public/img/Shopify_Vectors-Wrapper.svg";
 import klaviyoPartner from "../../public/img/klaviyo-partner-badge-light.svg";
 import Link from "next/link";
 import Carrousel from "./components/Carrousel";
+import clock from '../../public/img/clock.png';
+import plane from '../../public/img/plane.png';
 
 
 export default function Home() {
@@ -103,16 +105,20 @@ export default function Home() {
           </p>
         </section>
         <DropdownsWhy></DropdownsWhy>
-        <section className="moto bg-primary text-neutral text-center py-5 md:px-20">
-          <h2 className="text-3xl text-neutral">Our moto:</h2>
-          <p className="text-6xl">DELEGATE AND ELEVATE.</p>
-          <p className="text-lg">
-            Claim back the 720h+ you would spend on email each year.
-          </p>
-          <p className="text-lg">
-            Fly new hights at an average of 106,4% in the first six months of
-            working with us.
-          </p>
+        <section className="moto bg-primary text-neutral text-center py-5 md:px-20 flex justify-between items-center">
+          <Image src={clock} alt="" className="w-56 h-56"></Image>
+          <section className="center">
+            <h2 className="text-3xl text-neutral">Our moto:</h2>
+            <p className="text-6xl">DELEGATE AND ELEVATE.</p>
+            <p className="text-lg">
+              Claim back the 720h+ you would spend on email each year.
+            </p>
+            <p className="text-lg">
+              Fly new hights at an average of 106,4% in the first six months of
+              working with us.
+            </p>
+          </section>
+          <Image src={plane} alt="" className="w-56 h-56"></Image>
         </section>
         <DropdownsHelp></DropdownsHelp>
         <hr className="w-auto h-[2px] my-4 mx-20 bg-gradient-to-r from-white via-primary to-white border-0 rounded md:my-10"></hr>

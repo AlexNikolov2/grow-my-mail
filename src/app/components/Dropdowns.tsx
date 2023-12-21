@@ -14,7 +14,7 @@ export function DropdownsWhy() {
     {
       title: "Predictability",
       content:
-        "The average partner is proven to grow email sales by 106.4% in the first 6 months of working with us.",
+        "The average partner is proven to grow retention sales by 106.4% in the first 6 months of working with us.",
     },
     {
       title: "Pay for results",
@@ -34,12 +34,12 @@ export function DropdownsWhy() {
     {
       title: "Success, driven by math",
       content:
-        "We don’t rely on luck. We engineer success based on data. We analyze best-performing email campaigns and opportunities and capitalize on those. ",
+        "We don’t rely on luck. We engineer success based on data. We analyze best-performing  campaigns and opportunities and capitalize on those. ",
     },
     {
       title: "Magic! (not quite)",
       content:
-        "We actually read the numbers in your Shopify and Klaviyo accounts and make careful calculations on how to get you from X to Y in email sales. And then we just do it. Some people call it magic, we call it financial intelligence.",
+        "We actually read the numbers in your Shopify and Klaviyo accounts and make careful calculations on how to get you from X to Y in retention sales. And then we just do it. Some people call it magic, we call it financial intelligence.",
     },
     {
       title: "Focused",
@@ -56,9 +56,8 @@ export function DropdownsWhy() {
           {items.map((item, index) => (
             <section
               key={index}
-              className={`item-dropdown text-2xl bg-primary text-neutral ${
-                openedIndex === index ? "active" : ""
-              }`}
+              className={`item-dropdown text-2xl bg-primary text-neutral ${openedIndex === index ? "active" : ""
+                }`}
               onClick={() => toggleElement(index)}
             >
               {item.title}
@@ -70,9 +69,8 @@ export function DropdownsWhy() {
             {items.map((item, index) => (
               <section
                 key={index}
-                className={`item-display box-border my-2 mx-4 text-neutral ${
-                  openedIndex === index ? "block" : "hidden"
-                }`}
+                className={`item-display box-border my-2 mx-4 text-neutral ${openedIndex === index ? "block" : "hidden"
+                  }`}
               >
                 <p className="text-3xl font-bold">{item.title}</p>
                 <p className="text-xl">{item.content}</p>
@@ -138,9 +136,8 @@ export function DropdownsHelp() {
           {items.map((item, index) => (
             <section
               key={index}
-              className={`item-dropdown text-2xl bg-primary text-neutral ${
-                openedIndex === index ? "active" : ""
-              }`}
+              className={`item-dropdown text-2xl bg-primary text-neutral ${openedIndex === index ? "active" : ""
+                }`}
               onClick={() => toggleElement(index)}
             >
               {item.title}
@@ -152,9 +149,8 @@ export function DropdownsHelp() {
             {items.map((item, index) => (
               <section
                 key={index}
-                className={`item-display box-border my-2 mx-4 text-neutral ${
-                  openedIndex === index ? "block" : "hidden"
-                }`}
+                className={`item-display box-border my-2 mx-4 text-neutral ${openedIndex === index ? "block" : "hidden"
+                  }`}
               >
                 <p className="text-3xl font-bold">{item.title}</p>
                 <p className="text-xl">{item.content}</p>
