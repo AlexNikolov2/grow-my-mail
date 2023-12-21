@@ -76,18 +76,18 @@ export default function Home() {
             </h2>
 
             <p>Capitalise on existing customers without spending additionally on ads to acquire new ones.</p>
-            <section className="benefits">
-              <section className="benefit">
-                <p className="left">5x</p>
-                <p className="right">It is 5x cheaper to sell to an existing customer than to aquire a new one</p>
+            <section className="benefits ">
+              <section className="benefit flex gap-5 items-center">
+                <p className="left bg-primary p-5 text-neutral font-black rounded-2xl">5x</p>
+                <p className="right  text-xl">It is 5x cheaper to sell to an existing customer than to aquire a new one</p>
               </section>
-              <section className="benefit">
-                <p className="left">45x</p>
-                <p className="right">Retention ROI is up to 45x (yes, you read that right)</p>
+              <section className="benefit flex gap-5 items-center">
+                <p className="left bg-primary p-5 text-neutral font-black rounded-2xl">45x</p>
+                <p className="right  text-xl">Retention ROI is up to 45x (yes, you read that right)</p>
               </section>
-              <section className="benefit">
-                <p className="left">94.6%</p>
-                <p className="right">94.6% Average gross margins (compared to advertising)</p>
+              <section className="benefit flex gap-5 items-center">
+                <p className="left bg-primary p-5 text-neutral font-black rounded-2xl">94.6%</p>
+                <p className="right  text-xl">94.6% Average gross margins (compared to advertising)</p>
               </section>
             </section>
           </section>
