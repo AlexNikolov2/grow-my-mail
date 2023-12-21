@@ -72,15 +72,24 @@ export default function Home() {
         <section className="feature-one flex flex-col md:flex-row md:ml-24 justify-end items-center">
           <section className="text md:w-1/2 mx-5 text-center md:text-left md:relative md:left-40">
             <h2 className="text-4xl">
-              Helped brands generate over 10M in email attributed revenue.
+              Why retention marketing?
             </h2>
-            <p>
-              Why email? It means getting <b>free money</b>! Capitalise on
-              existing customers without spending additionally on ads to acquire
-              new ones It is <b>5x cheaper</b> to sell to an existing customer
-              than to aquire a new one. Email ROI is up to <b>39x</b>! Yes, you
-              read that right!
-            </p>
+
+            <p>Capitalise on existing customers without spending additionally on ads to acquire new ones.</p>
+            <section className="benefits">
+              <section className="benefit">
+                <p className="left">5x</p>
+                <p className="right">It is 5x cheaper to sell to an existing customer than to aquire a new one</p>
+              </section>
+              <section className="benefit">
+                <p className="left">45x</p>
+                <p className="right">Retention ROI is up to 45x (yes, you read that right)</p>
+              </section>
+              <section className="benefit">
+                <p className="left">94.6%</p>
+                <p className="right">94.6% Average gross margins (compared to advertising)</p>
+              </section>
+            </section>
           </section>
           <section className="img">
             <Image src={feature_img1} alt="" className="w-max"></Image>
