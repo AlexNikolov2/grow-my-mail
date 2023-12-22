@@ -53,7 +53,7 @@ export default function Home() {
               <Image src={shopifyPartner} alt=""></Image>
               <Image src={klaviyoPartner} alt="" className="w-24"></Image>
             </section>
-            <section className="btn btn-secondary mt-8" ><Link href="#calendly">Get a free demo</Link></section>
+            <section className="btn btn-secondary mt-8" ><Link href="#calendly" className="no-underline text-neutral text-xl font-bold">Get a free demo</Link></section>
           </section>
           <section className="hero-right hidden md:flex md:items-center min-w-[33%]">
             <iframe
@@ -271,7 +271,7 @@ export default function Home() {
           <section className="right flex flex-col gap-20 text-center md:text-left">
             <section className="title">
               <h2 className="text-4xl">CASE STUDY: CHIEF NUTRITION</h2>
-              <h3 className="flex gap-10">
+              <h3 className="flex gap-10 items-center justify-center lg:justify-start">
                 <FontAwesomeIcon
                   icon={faClock}
                   className="w-6 text-primary"
@@ -279,7 +279,7 @@ export default function Home() {
                 6 months
               </h3>
             </section>
-            <section className="results flex flex-col xl:flex-row gap-5 justify-center md:justify-around">
+            <section className="results flex flex-col xl:flex-row gap-5 justify-center items-center lg:items-start md:justify-around">
               <section className="result w-[250px]">
                 <p className="text-4xl my-3 text-primary font-black">6822%</p>
                 <p>Increase in email sales vs. previous year</p>
