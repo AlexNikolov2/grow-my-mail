@@ -53,7 +53,7 @@ export default function Home() {
               <Image src={shopifyPartner} alt=""></Image>
               <Image src={klaviyoPartner} alt="" className="w-24"></Image>
             </section>
-            <section className="btn btn-secondary mt-8" ><Link href="">Get a free demo</Link></section>
+            <section className="btn btn-secondary mt-8" ><Link href="#calendly">Get a free demo</Link></section>
           </section>
           <section className="hero-right hidden md:flex md:items-center min-w-[33%]">
             <iframe
@@ -80,15 +80,15 @@ export default function Home() {
 
             <p>Capitalise on existing customers without spending additionally on ads to acquire new ones.</p>
             <section className="benefits ">
-              <section className="benefit flex gap-5 items-center">
+              <section className="benefit flex flex-col sm:flex-row gap-5 items-center">
                 <p className="left bg-primary p-5 text-neutral font-black rounded-2xl">5x</p>
                 <p className="right  text-xl">It is 5x cheaper to sell to an existing customer than to aquire a new one</p>
               </section>
-              <section className="benefit flex gap-5 items-center">
+              <section className="benefit flex flex-col sm:flex-row gap-5 items-center">
                 <p className="left bg-primary p-5 text-neutral font-black rounded-2xl">45x</p>
                 <p className="right  text-xl">Retention ROI is up to 45x (yes, you read that right)</p>
               </section>
-              <section className="benefit flex gap-5 items-center">
+              <section className="benefit flex flex-col sm:flex-row gap-5 items-center">
                 <p className="left bg-primary p-5 text-neutral font-black rounded-2xl">94.6%</p>
                 <p className="right  text-xl">94.6% Average gross margins (compared to advertising)</p>
               </section>
@@ -106,7 +106,7 @@ export default function Home() {
           </p>
         </section>
         <DropdownsWhy></DropdownsWhy>
-        <section className="moto bg-primary text-neutral text-center py-5 md:px-20 flex justify-between items-center">
+        <section className="moto bg-primary text-neutral text-center py-5 md:px-20 flex flex-col lg:flex-row justify-between items-center">
           <Image src={clock} alt="" className="w-56 h-56"></Image>
           <section className="center">
             <h2 className="text-3xl text-neutral">Our motto:</h2>
@@ -261,7 +261,7 @@ export default function Home() {
             </section>
           </section>
           <section className="btn btn-secondary my-10 mx-auto">
-            <Link href={''} className="no-underline text-neutral text-xl font-bold">Apply to work with us</Link>
+            <Link href={'#calendly'} className="no-underline text-neutral text-xl font-bold">Apply to work with us</Link>
           </section>
         </section>
         <VideoTestimonials></VideoTestimonials>
@@ -334,7 +334,7 @@ export default function Home() {
             </section>
           </section>
           <section className="btn btn-secondary my-10">
-            <Link href={''} className="no-underline text-neutral text-xl font-bold">Apply to work with us</Link>
+            <Link href={'#calendly'} className="no-underline text-neutral text-xl font-bold">Apply to work with us</Link>
           </section>
         </section>
         <section className="email-marketing bg-primary text-neutral flex md:flex-row flex-col justify-center items-center md:px-20 py-10">
@@ -376,7 +376,9 @@ export default function Home() {
             <Image src={EmailMarketing} alt="Email" className="w-3/4"></Image>
           </section>
         </section>
-        <CalendlyComponent url="https://calendly.com/ayanashfaq1590/consultancy-call"></CalendlyComponent>
+        <section id="calendly">
+          <CalendlyComponent url="https://calendly.com/ayanashfaq1590/consultancy-call"></CalendlyComponent>
+        </section>
       </main>
       <Footer></Footer>
     </>
