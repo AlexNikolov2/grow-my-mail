@@ -9,7 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "#063853", //primary color
+        primary: {
+          100: "#0078B5",
+          300: "#004A70",
+          500: "#002538",
+          DEFAULT: "#063853",
+        }, //primary color
         secondary: "#21C3FF", //secondary color
         neutral: "#ffffff", //neutral color
         base: "#000000", //dark basis

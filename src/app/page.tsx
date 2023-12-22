@@ -32,6 +32,7 @@ import Link from "next/link";
 import Carrousel from "./components/Carrousel";
 import clock from '../../public/img/clock.png';
 import plane from '../../public/img/plane.png';
+import { link } from "fs";
 
 
 export default function Home() {
@@ -259,6 +260,9 @@ export default function Home() {
               </ul>
             </section>
           </section>
+          <section className="btn btn-secondary my-10 mx-auto">
+            <Link href={''} className="no-underline text-neutral text-xl font-bold">Apply to work with us</Link>
+          </section>
         </section>
         <VideoTestimonials></VideoTestimonials>
         <hr className="w-auto h-[2px] my-4 mx-20 bg-gradient-to-r from-white via-primary to-white border-0 rounded md:my-10"></hr>
@@ -294,9 +298,9 @@ export default function Home() {
             </section>
           </section>
         </section>
-        <section className="good-fit md:px-20 text-center bg-gradient-to-b from-blue-100 via-blue-300 to-blue-500 flex justify-center items-center py-10 flex-col">
-          <h2 className="text-4xl">Are we a good fit?</h2>
-          <p>
+        <section className="good-fit md:px-20 text-center bg-gradient-to-b from-primary-100 via-primary-300 to-primary-500 flex justify-center items-center py-10 flex-col">
+          <h2 className="text-4xl text-neutral">Are we a good fit?</h2>
+          <p className="text-neutral">
             If you can answer &quot;YES&quot; on 2 out of the 3 questions, then
             don&apos;t wait! Apply to work with us right now!
           </p>
@@ -330,13 +334,13 @@ export default function Home() {
             </section>
           </section>
           <section className="btn btn-secondary my-10">
-            Apply to work with us
+            <Link href={''} className="no-underline text-neutral text-xl font-bold">Apply to work with us</Link>
           </section>
         </section>
         <section className="email-marketing bg-primary text-neutral flex md:flex-row flex-col justify-center items-center md:px-20 py-10">
           <section className="left text-center md:text-left">
             <p className="text-xl">Our service:</p>
-            <h2 className="text-5xl text-neutral my-2">EMAIL MARKETING.</h2>
+            <h2 className="text-5xl text-neutral my-2">RETENTION MARKETING.</h2>
             <section className="wewont">
               <p>We won&apos;t :</p>
               <ul className="list-none text-center">
@@ -363,7 +367,7 @@ export default function Home() {
                 </li>
               </ul>
               <p className="text-2xl font-bold text-center">
-                We&apos;ll do email marketing and we&apos;ll do it like no one
+                We&apos;ll do retention marketing and we&apos;ll do it like no one
                 else.
               </p>
             </section>
