@@ -58,7 +58,7 @@ export default function Home() {
           <section className="hero-right hidden md:flex md:items-center min-w-[33%]">
             <iframe
               height="300"
-              src="https://www.loom.com/embed/bb9785347d7f489fb8f89ea5ea18a395?sid=ec486bec-857f-469b-8010-b89a50234868"
+              src="https://www.loom.com/embed/0fdca59c577c4e3d9eb5988eaffca501?sid=dd237e39-ec19-4129-9334-cd282123bb16"
               frameBorder="0"
               allowFullScreen
               className="xl:w-[500px] w-full"

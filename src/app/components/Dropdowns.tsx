@@ -15,26 +15,31 @@ export function DropdownsWhy() {
       title: "Predictability",
       content:
         "The average partner is proven to grow retention sales by 106.4% in the first 6 months of working with us.",
+      image: 'predictability.png',
     },
     {
       title: "Pay for results",
       content:
         "Not for set-up. Not for an office. Not for 50 employees. Our philosophy: we make a lot of money when you make a lot of money.",
+      image: 'pay_for_results.png'
     },
     {
       title: "Safety and security",
       content:
         "Relax as we alleviate the stress of managing an in-house team and the financial uncertainties of hiring and turnover. We provide you with access to top-tier, world-class talent that's second to none, removing the risk and ensuring your peace of mind.",
+      image: 'safety_and_security.png'
     },
     {
       title: "Steady growth",
       content:
         "We’ll evolve at a pace you can keep up with; we won’t make a revolution where we scale you up too quickly and you break the logistic chain.",
+      image: 'steady_growth.png'
     },
     {
       title: "Success, driven by math",
       content:
         "We don’t rely on luck. We engineer success based on data. We analyze best-performing  campaigns and opportunities and capitalize on those. ",
+
     },
     {
       title: "Magic! (not quite)",
