@@ -55,13 +55,13 @@ export default function Home() {
             </section>
             <section className="btn btn-secondary mt-8" ><Link href="#calendly" className="no-underline text-neutral text-xl font-bold">Get a free demo</Link></section>
           </section>
-          <section className="hero-right hidden md:flex md:items-center min-w-[33%]">
+          <section className="hero-right hidden lg:flex lg:items-center min-w-[50%]">
             <iframe
-              height="300"
+              height="100%"
               src="https://www.loom.com/embed/0fdca59c577c4e3d9eb5988eaffca501?sid=dd237e39-ec19-4129-9334-cd282123bb16"
               frameBorder="0"
               allowFullScreen
-              className="xl:w-[500px] w-full"
+              className="xl:w-full w-full"
             ></iframe>
           </section>
         </section>
@@ -128,12 +128,12 @@ export default function Home() {
           <section className="wrapper flex md:flex-row flex-col gap-10 py-10 items-center justify-between">
             <section className="numbers flex flex-col gap-12 flex-wrap justify-center items-center basis-1/2">
               <p className="stat text-center m-1">
-                <p className="text-4xl font-bold text-primary my-1">39.13%</p>
-                <p className="text-xl">Increase in AOV</p>
+                <p className="text-3xl font-bold text-primary my-1">17.27%</p>
+                <p className="text-xl">Increase in customer LTV</p>
               </p>
               <p className="stat text-center m-1">
-                <p className="text-4xl font-bold text-primary my-1">17.27%</p>
-                <p className="text-xl">Increase in customer LTV</p>
+                <p className="text-4xl font-bold text-primary my-1">39.13%</p>
+                <p className="text-xl">Increase in AOV</p>
               </p>
               <p className="stat text-center">
                 <p className="text-6xl font-bold text-primary my-3">106.4%</p>
