@@ -40,9 +40,33 @@ export default function Carrousel() {
   };
 
   const images = [
-    "SuperFeast-4month-mark-Jun-Nov2023.jpg",
-    "SuperFeast-Oct-Campaigns-2023.jpg",
-    "SuperFeast-top-performing-flows-May-Nov-2023.jpg",
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.jpg",
+    "7.jpg",
+    "8.jpg",
+    "9.jpg",
+    "10.png",
+    "11.jpg",
+    "12.jpg",
+    "13.jpg",
+    "14.jpg",
+    "15.jpg",
+    "16.jpg",
+    "17.jpeg",
+    "18.jpg",
+    "19.jpg",
+    "20.jpg",
+    "21.jpeg",
+    "22.jpg",
+    "23.jpg",
+    "24.jpg",
+    "25.jpg",
+    "26.jpg",
+    "27.jpg",
   ];
 
   return (
