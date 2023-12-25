@@ -16,7 +16,7 @@ import {
 import numbersImg from "../../public/img/numbers.png";
 import founderImg from "../../public/img/founder.jpg";
 import { VideoTestimonials } from "./components/VideoTestimonials";
-import chief_nutrition from "../../public/img/chief_nutrition.webp";
+import chief_nutrition from "../../public/img/chief_nutrition.jpg";
 import { faClock, faX } from "@fortawesome/free-solid-svg-icons";
 import EmailMarketing from "../../public/img/email-narketing.png";
 import CalendlyComponent from "./components/Calendly";
@@ -239,7 +239,7 @@ export default function Home() {
           <h2 className="text-4xl text-neutral text-center">
             What&apos;s our approach?
           </h2>
-          <section className="items flex justify-center gap-10 lg:flex-row flex-col items-center md:items-stretch">
+          <section className="items flex justify-center gap-10 lg:flex-row flex-col items-center lg:items-stretch">
             <section className="item border-neutral rounded-2xl border-4">
               <p className="font-bold 4xl">Done for you</p>
               <ul>
@@ -266,12 +266,12 @@ export default function Home() {
         </section>
         <VideoTestimonials></VideoTestimonials>
         <hr className="w-auto h-[2px] my-4 mx-20 bg-gradient-to-r from-white via-primary to-white border-0 rounded md:my-10"></hr>
-        <section className="case-study md:mx-20 my-10 flex xl:flex-row flex-col justify-around items-center gap-10">
-          <Image src={chief_nutrition} alt="" className="rounded-3xl"></Image>
+        <section className="case-study md:mx-20 my-10 flex 2xl:flex-row flex-col justify-around items-center gap-10">
+          <Image src={chief_nutrition} alt="" className="rounded-3xl w-1/2 mx-3"></Image>
           <section className="right flex flex-col gap-20 text-center md:text-left">
             <section className="title">
               <h2 className="text-4xl">CASE STUDY: CHIEF NUTRITION</h2>
-              <h3 className="flex gap-10 items-center justify-center lg:justify-start">
+              <h3 className="flex gap-10 items-center justify-center lg:justify-start text-3xl">
                 <FontAwesomeIcon
                   icon={faClock}
                   className="w-6 text-primary"
@@ -281,11 +281,11 @@ export default function Home() {
             </section>
             <section className="results flex flex-col xl:flex-row gap-5 justify-center items-center lg:items-start md:justify-around">
               <section className="result w-[250px]">
-                <p className="text-4xl my-3 text-primary font-black">6822%</p>
+                <p className="text-4xl my-3 text-primary font-black">6305%</p>
                 <p>Increase in email sales vs. previous year</p>
               </section>
               <section className="result w-[250px]">
-                <p className="text-4xl my-3 text-primary font-black">$362K</p>
+                <p className="text-4xl my-3 text-primary font-black">$382K</p>
                 <p>Email attributed revenue</p>
               </section>
               <section className="result w-[250px]">
