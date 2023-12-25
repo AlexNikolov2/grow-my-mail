@@ -39,17 +39,19 @@ export function DropdownsWhy() {
       title: "Success, driven by math",
       content:
         "We don’t rely on luck. We engineer success based on data. We analyze best-performing  campaigns and opportunities and capitalize on those. ",
-
+      image: 'math.png'
     },
     {
       title: "Magic! (not quite)",
       content:
         "We actually read the numbers in your Shopify and Klaviyo accounts and make careful calculations on how to get you from X to Y in retention sales. And then we just do it. Some people call it magic, we call it financial intelligence.",
+      image: 'magic.png'
     },
     {
       title: "Focused",
       content:
         "Our focus is laser sharp. Some clients get offended, but we don’t offer our services to everyone. We’ve got a very specific ideal client type and only offer our services if we are 100% certain that we can help. ",
+      image: 'focused.png'
     },
   ];
 
