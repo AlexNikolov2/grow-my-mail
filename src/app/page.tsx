@@ -72,7 +72,7 @@ export default function Home() {
           <Slider></Slider>
         </section>
         <hr className="w-auto h-[2px] my-4 mx-20 bg-gradient-to-r from-white via-primary to-white border-0 rounded md:my-10"></hr>
-        <section className="feature-one flex flex-col md:flex-row md:ml-24 justify-end items-center">
+        <section className="feature-one flex flex-col lg:flex-row lg:ml-24 justify-center lg:justify-end items-center">
           <section className="text md:w-1/2 mx-5 text-center md:text-left md:relative md:left-40">
             <h2 className="text-4xl">
               Why retention marketing?
