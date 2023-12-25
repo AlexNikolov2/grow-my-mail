@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import Image from "next/image";
@@ -27,7 +28,7 @@ export function DropdownsWhy() {
       title: "Safety and security",
       content:
         "Relax as we alleviate the stress of managing an in-house team and the financial uncertainties of hiring and turnover. We provide you with access to top-tier, world-class talent that's second to none, removing the risk and ensuring your peace of mind.",
-      image: 'safety_and_security.png'
+      image: 'safety_security.png'
     },
     {
       title: "Steady growth",
@@ -81,6 +82,7 @@ export function DropdownsWhy() {
               >
                 <p className="text-3xl font-bold">{item.title}</p>
                 <p className="text-xl">{item.content}</p>
+                <img src={`/img/${item.image}`} alt="" className="w-[300px] mx-auto"></img>
               </section>
             ))}
           </section>
