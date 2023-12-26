@@ -4,7 +4,12 @@ import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect } from "react";
 
-const CalendlyComponent = ({ url }) => {
+interface CalendlyComponentProps {
+  url: string;
+}
+
+
+const CalendlyComponent: React.FC<CalendlyComponentProps> = ({ url }) => {
   useEffect(() => {
     const head = document.querySelector("head");
     const script = document.createElement("script");

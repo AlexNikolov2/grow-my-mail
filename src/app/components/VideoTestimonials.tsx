@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import ReactPlayer from 'react-player';
 
 export function VideoTestimonials() {
-  const CustomPrevArrow = (props) => (
+  const CustomPrevArrow = (props: { onClick: React.MouseEventHandler<HTMLDivElement> | undefined; }) => (
     <div
       className="slick-arrow slick-prev p-2 rounded-full absolute top-1/2 transform -translate-y-1/2 left-4 cursor-pointer bg-gray-800 text-white"
       onClick={props.onClick}
@@ -16,7 +16,7 @@ export function VideoTestimonials() {
     </div>
   );
 
-  const CustomNextArrow = (props) => (
+  const CustomNextArrow = (props: { onClick: React.MouseEventHandler<HTMLDivElement> | undefined; }) => (
     <div
       className="slick-arrow slick-next p-2 rounded-full absolute top-1/2 transform -translate-y-1/2 right-4 cursor-pointer bg-gray-800 text-white"
       onClick={props.onClick}
@@ -33,8 +33,8 @@ export function VideoTestimonials() {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
-    prevArrow: <CustomPrevArrow />,
-    nextArrow: <CustomNextArrow />,
+    prevArrow: <CustomPrevArrow onClick={undefined} />,
+    nextArrow: <CustomNextArrow onClick={undefined} />,
   };
 
   const videos = [

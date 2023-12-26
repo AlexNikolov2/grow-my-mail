@@ -9,7 +9,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 export default function Carrousel() {
-  const CustomPrevArrow = (props) => (
+  const CustomPrevArrow = (props: { onClick: React.MouseEventHandler<HTMLDivElement> | undefined; }) => (
     <div
       className="hidden slick-arrow slick-prev p-2 rounded-full"
       onClick={props.onClick}
@@ -19,7 +19,7 @@ export default function Carrousel() {
     </div>
   );
 
-  const CustomNextArrow = (props) => (
+  const CustomNextArrow = (props: { onClick: React.MouseEventHandler<HTMLDivElement> | undefined; }) => (
     <div
       className="hidden slick-arrow slick-next p-2 rounded-full"
       onClick={props.onClick}
@@ -37,8 +37,8 @@ export default function Carrousel() {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
-    prevArrow: <CustomPrevArrow />,
-    nextArrow: <CustomNextArrow />,
+    prevArrow: <CustomPrevArrow onClick={undefined} />,
+    nextArrow: <CustomNextArrow onClick={undefined} />,
   };
 
   const images = [
@@ -75,7 +75,6 @@ export default function Carrousel() {
     <div className="w-auto sm:max-w-[55%] mx-auto">
       <h2 className="text-4xl text-center pb-5">Ready? Set... Results!</h2>
       <div className="mx-auto">
-        {/* Center the Slider */}
         <div className="mx-auto">
           <Slider {...sliderSettings} className="mx-auto">
             {images.map((image, index) => (
