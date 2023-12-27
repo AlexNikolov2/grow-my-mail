@@ -377,7 +377,7 @@ export default function Home() {
           </section>
         </section>
         <section id="calendly">
-          <CalendlyComponent url="https://calendly.com/ayanashfaq1590/consultancy-call"></CalendlyComponent>
+          <CalendlyComponent url="https://calendly.com/ilko-hristov/15-min-intro-call-ilko-hristov"></CalendlyComponent>
         </section>
       </main>
       <Footer></Footer>
