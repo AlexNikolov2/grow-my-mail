@@ -94,5 +94,4 @@ export default function Carrousel() {
       </div>
     </div>
   );
-
 }

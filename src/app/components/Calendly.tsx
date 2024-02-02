@@ -24,7 +24,7 @@ const CalendlyComponent: React.FC<CalendlyComponentProps> = ({ url }) => {
     <section className="calendly flex xl:flex-row flex-col md:mx-20 items-center justify-between">
       <section className="text w-[300px] md:w-auto">
         <h2 className="text-3xl">
-          Get Your Free 15-Minute Email Strategy Demo with Hayder
+          Get Your Free 15-Minute Email Strategy Demo with Ilko
         </h2>
         <p className="text-xl font-bold">
           Stop the $90 leak per customer. Warm them up with emails that turn

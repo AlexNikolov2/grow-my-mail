@@ -61,9 +61,6 @@ export default function Header() {
           } md:flex md:items-center md:w-auto mt-4 md:mt-0`}
       >
         <section className="flex flex-col md:flex-row gap-5 items-center text-neutral text-xl">
-          <Link href="">
-            About Us
-          </Link>
           <Link href="" className="btn btn-secondary font-bold">
             Book a Call
           </Link>
