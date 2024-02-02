@@ -16,7 +16,7 @@ export default function Header() {
     <header className="bg-primary p-4 md:flex md:justify-between md:items-center">
       <div className="flex items-center justify-between">
         <div className="logo">
-          <Image src={logo} alt="logo" width={300} height={100} />
+          <Link href='/'><Image src={logo} alt="logo" width={300} height={100} /></Link>
         </div>
         <button
           onClick={handleClick}
