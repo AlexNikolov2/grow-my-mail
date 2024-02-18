@@ -11,7 +11,7 @@ export default function Footer() {
         </div>
         <div className="right-wrap">
           <div className="links flex flex-col text-neutral gap-5">
-            <Link href="">Privacy Policy</Link>
+            <Link href="/privacy-policy">Privacy Policy</Link>
             <Link href="">Terms of Service</Link>
             <Link href="">Cookie Policy</Link>
           </div>
