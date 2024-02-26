@@ -30,38 +30,47 @@ import shopifyPartner from "../../public/img/Shopify_Vectors-Wrapper.svg";
 import klaviyoPartner from "../../public/img/klaviyo-partner-badge-light.svg";
 import Link from "next/link";
 import Carrousel from "./components/Carrousel";
-import clock from '../../public/img/clock.png';
-import plane from '../../public/img/plane.png';
+import clock from "../../public/img/clock.png";
+import plane from "../../public/img/plane.png";
 import { link } from "fs";
-
 
 export default function Home() {
   return (
     <>
       <Header></Header>
       <main className="prose">
-        <section className="hero linear bg-gradient-to-r from-primary to-black text-neutral flex justify-around py-5 px-5 md:py-10 md:pb-20 md:px-20 gap-20 w-full">
+        <section className="hero linear bg-gradient-to-r from-primary to-black text-neutral flex flex-col xl:flex-row justify-around py-5 px-5 md:py-10 md:pb-20 md:px-20 gap-20 w-full">
           <section className="hero-left mt-16">
             <h1 className="text-neutral my-7 text-3xl sm:text-5xl">
-              We help DTC/eCommerce brands boost retention revenue by an average of $3,150,900
+              We help DTC/eCommerce brands boost retention revenue by an average
+              of $3,150,900
             </h1>
             <h3 className="text-neutral my-5">
-              Most brands lose an average of $1,260,360 - $6,301,800 in retention revenue over a period of two years. We are here to help you claim that revenue back + boost retention and customer lifetime value even further.
+              Most brands lose an average of $1,260,360 - $6,301,800 in
+              retention revenue over a period of two years. We are here to help
+              you claim that revenue back + boost retention and customer
+              lifetime value even further.
             </h3>
             <section className="partners flex flex-wrap gap-5">
               <Image src={googlePartner} alt=""></Image>
               <Image src={shopifyPartner} alt=""></Image>
               <Image src={klaviyoPartner} alt="" className="w-24"></Image>
             </section>
-            <section className="btn btn-secondary mt-8" ><Link href="#calendly" className="no-underline text-neutral text-xl font-bold">Get a free demo</Link></section>
+            <section className="btn btn-secondary mt-8">
+              <Link
+                href="#calendly"
+                className="no-underline text-neutral text-xl font-bold"
+              >
+                Get a free demo
+              </Link>
+            </section>
           </section>
-          <section className="hero-right hidden lg:flex lg:items-center min-w-[50%]">
+          <section className="hero-right flex items-center min-w-[50%]">
             <iframe
               height="100%"
-              src="https://www.loom.com/embed/0fdca59c577c4e3d9eb5988eaffca501?sid=dd237e39-ec19-4129-9334-cd282123bb16"
-              frameBorder="0"
+              src="https://www.youtube.com/embed/Lk_SukDgjKM"
               allowFullScreen
-              className="xl:w-full w-full"
+              className="xl:w-full xl:h-1/2 h-full w-full"
             ></iframe>
           </section>
         </section>
@@ -74,23 +83,37 @@ export default function Home() {
         <hr className="w-auto h-[2px] my-4 mx-20 bg-gradient-to-r from-white via-primary to-white border-0 rounded md:my-10"></hr>
         <section className="feature-one flex flex-col lg:flex-row lg:ml-24 justify-center lg:justify-end items-center">
           <section className="text md:w-1/2 mx-5 text-center md:text-left md:relative md:left-40">
-            <h2 className="text-4xl">
-              Why retention marketing?
-            </h2>
+            <h2 className="text-4xl">Why retention marketing?</h2>
 
-            <p>Capitalise on existing customers without spending additionally on ads to acquire new ones.</p>
+            <p>
+              Capitalise on existing customers without spending additionally on
+              ads to acquire new ones.
+            </p>
             <section className="benefits ">
               <section className="benefit flex flex-col sm:flex-row gap-5 items-center">
-                <p className="left bg-primary p-5 text-neutral font-black rounded-2xl">5x</p>
-                <p className="right  text-xl">It is 5x cheaper to sell to an existing customer than to aquire a new one</p>
+                <p className="left bg-primary p-5 text-neutral font-black rounded-2xl">
+                  5x
+                </p>
+                <p className="right  text-xl">
+                  It is 5x cheaper to sell to an existing customer than to
+                  aquire a new one
+                </p>
               </section>
               <section className="benefit flex flex-col sm:flex-row gap-5 items-center">
-                <p className="left bg-primary p-5 text-neutral font-black rounded-2xl">45x</p>
-                <p className="right  text-xl">Retention ROI is up to 45x (yes, you read that right)</p>
+                <p className="left bg-primary p-5 text-neutral font-black rounded-2xl">
+                  45x
+                </p>
+                <p className="right  text-xl">
+                  Retention ROI is up to 45x (yes, you read that right)
+                </p>
               </section>
               <section className="benefit flex flex-col sm:flex-row gap-5 items-center">
-                <p className="left bg-primary p-5 text-neutral font-black rounded-2xl">94.6%</p>
-                <p className="right  text-xl">94.6% Average gross margins (compared to advertising)</p>
+                <p className="left bg-primary p-5 text-neutral font-black rounded-2xl">
+                  94.6%
+                </p>
+                <p className="right  text-xl">
+                  94.6% Average gross margins (compared to advertising)
+                </p>
               </section>
             </section>
           </section>
@@ -261,13 +284,22 @@ export default function Home() {
             </section>
           </section>
           <section className="btn btn-secondary my-10 mx-auto">
-            <Link href={'#calendly'} className="no-underline text-neutral text-xl font-bold">Apply to work with us</Link>
+            <Link
+              href={"#calendly"}
+              className="no-underline text-neutral text-xl font-bold"
+            >
+              Apply to work with us
+            </Link>
           </section>
         </section>
         <VideoTestimonials></VideoTestimonials>
         <hr className="w-auto h-[2px] my-4 mx-20 bg-gradient-to-r from-white via-primary to-white border-0 rounded md:my-10"></hr>
         <section className="case-study md:mx-20 my-10 flex 2xl:flex-row flex-col justify-around items-center gap-10">
-          <Image src={chief_nutrition} alt="" className="rounded-3xl w-1/2 mx-3"></Image>
+          <Image
+            src={chief_nutrition}
+            alt=""
+            className="rounded-3xl w-1/2 mx-3"
+          ></Image>
           <section className="right flex flex-col gap-20 text-center md:text-left">
             <section className="title">
               <h2 className="text-4xl">CASE STUDY: CHIEF NUTRITION</h2>
@@ -334,7 +366,12 @@ export default function Home() {
             </section>
           </section>
           <section className="btn btn-secondary my-10">
-            <Link href={'#calendly'} className="no-underline text-neutral text-xl font-bold">Apply to work with us</Link>
+            <Link
+              href={"#calendly"}
+              className="no-underline text-neutral text-xl font-bold"
+            >
+              Apply to work with us
+            </Link>
           </section>
         </section>
         <section className="email-marketing bg-primary text-neutral flex md:flex-row flex-col justify-center items-center md:px-20 py-10">
@@ -367,8 +404,8 @@ export default function Home() {
                 </li>
               </ul>
               <p className="text-2xl font-bold text-center">
-                We&apos;ll do retention marketing and we&apos;ll do it like no one
-                else.
+                We&apos;ll do retention marketing and we&apos;ll do it like no
+                one else.
               </p>
             </section>
           </section>
